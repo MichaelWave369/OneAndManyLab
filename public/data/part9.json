@@ -1,0 +1,2115 @@
+{
+  "experiment": "Part IX \u2014 budget-matched communication with unreliable feedback",
+  "version": "1.0",
+  "seed": 369,
+  "conditions": [
+    {
+      "sensory_noise": 0.0,
+      "data_loss": 0.0,
+      "feedback_loss": 0.0,
+      "seed": 369,
+      "trials_per_protocol": 20000,
+      "matched_repeat_probability": 0.0,
+      "protocols": {
+        "one_shot": {
+          "both_features_accuracy": 1.0,
+          "standard_error": 0.0,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 1.0,
+            "both_features_accuracy": 1.0,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 2
+          }
+        },
+        "random_repeat_matched": {
+          "both_features_accuracy": 1.0,
+          "standard_error": 0.0,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 1.0,
+            "both_features_accuracy": 1.0,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 4
+          }
+        },
+        "feedback_unreliable": {
+          "both_features_accuracy": 1.0,
+          "standard_error": 0.0,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 1.0,
+            "both_features_accuracy": 1.0,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 6
+          }
+        },
+        "always_two": {
+          "both_features_accuracy": 1.0,
+          "standard_error": 0.0,
+          "mean_total_messages": 4.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 1.0,
+            "both_features_accuracy": 1.0,
+            "mean_total_messages": 4.0,
+            "max_total_messages": 4
+          }
+        },
+        "always_three": {
+          "both_features_accuracy": 1.0,
+          "standard_error": 0.0,
+          "mean_total_messages": 6.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 1.0,
+            "both_features_accuracy": 1.0,
+            "mean_total_messages": 6.0,
+            "max_total_messages": 6
+          }
+        }
+      },
+      "paired_feedback_minus_matched": {
+        "observed_accuracy_difference": 0.0,
+        "standard_error": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0,
+        "predicted_accuracy_difference": 0.0
+      }
+    },
+    {
+      "sensory_noise": 0.0,
+      "data_loss": 0.0,
+      "feedback_loss": 0.2,
+      "seed": 482,
+      "trials_per_protocol": 20000,
+      "matched_repeat_probability": 0.0,
+      "protocols": {
+        "one_shot": {
+          "both_features_accuracy": 1.0,
+          "standard_error": 0.0,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 1.0,
+            "both_features_accuracy": 1.0,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 2
+          }
+        },
+        "random_repeat_matched": {
+          "both_features_accuracy": 1.0,
+          "standard_error": 0.0,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 1.0,
+            "both_features_accuracy": 1.0,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 4
+          }
+        },
+        "feedback_unreliable": {
+          "both_features_accuracy": 1.0,
+          "standard_error": 0.0,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 1.0,
+            "both_features_accuracy": 1.0,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 6
+          }
+        },
+        "always_two": {
+          "both_features_accuracy": 1.0,
+          "standard_error": 0.0,
+          "mean_total_messages": 4.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 1.0,
+            "both_features_accuracy": 1.0,
+            "mean_total_messages": 4.0,
+            "max_total_messages": 4
+          }
+        },
+        "always_three": {
+          "both_features_accuracy": 1.0,
+          "standard_error": 0.0,
+          "mean_total_messages": 6.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 1.0,
+            "both_features_accuracy": 1.0,
+            "mean_total_messages": 6.0,
+            "max_total_messages": 6
+          }
+        }
+      },
+      "paired_feedback_minus_matched": {
+        "observed_accuracy_difference": 0.0,
+        "standard_error": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0,
+        "predicted_accuracy_difference": 0.0
+      }
+    },
+    {
+      "sensory_noise": 0.0,
+      "data_loss": 0.0,
+      "feedback_loss": 0.6,
+      "seed": 595,
+      "trials_per_protocol": 20000,
+      "matched_repeat_probability": 0.0,
+      "protocols": {
+        "one_shot": {
+          "both_features_accuracy": 1.0,
+          "standard_error": 0.0,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 1.0,
+            "both_features_accuracy": 1.0,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 2
+          }
+        },
+        "random_repeat_matched": {
+          "both_features_accuracy": 1.0,
+          "standard_error": 0.0,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 1.0,
+            "both_features_accuracy": 1.0,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 4
+          }
+        },
+        "feedback_unreliable": {
+          "both_features_accuracy": 1.0,
+          "standard_error": 0.0,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 1.0,
+            "both_features_accuracy": 1.0,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 6
+          }
+        },
+        "always_two": {
+          "both_features_accuracy": 1.0,
+          "standard_error": 0.0,
+          "mean_total_messages": 4.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 1.0,
+            "both_features_accuracy": 1.0,
+            "mean_total_messages": 4.0,
+            "max_total_messages": 4
+          }
+        },
+        "always_three": {
+          "both_features_accuracy": 1.0,
+          "standard_error": 0.0,
+          "mean_total_messages": 6.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 1.0,
+            "both_features_accuracy": 1.0,
+            "mean_total_messages": 6.0,
+            "max_total_messages": 6
+          }
+        }
+      },
+      "paired_feedback_minus_matched": {
+        "observed_accuracy_difference": 0.0,
+        "standard_error": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0,
+        "predicted_accuracy_difference": 0.0
+      }
+    },
+    {
+      "sensory_noise": 0.0,
+      "data_loss": 0.15,
+      "feedback_loss": 0.0,
+      "seed": 708,
+      "trials_per_protocol": 20000,
+      "matched_repeat_probability": 0.3,
+      "protocols": {
+        "one_shot": {
+          "both_features_accuracy": 0.85745,
+          "standard_error": 0.0024721,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 0.85,
+            "single_feature_accuracy": 0.925,
+            "both_features_accuracy": 0.855625,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 2
+          }
+        },
+        "random_repeat_matched": {
+          "both_features_accuracy": 0.89155,
+          "standard_error": 0.0021987,
+          "mean_total_messages": 2.6054,
+          "expected": {
+            "delivery_probability": 0.88825,
+            "single_feature_accuracy": 0.944125,
+            "both_features_accuracy": 0.891372,
+            "mean_total_messages": 2.6,
+            "max_total_messages": 4
+          }
+        },
+        "feedback_unreliable": {
+          "both_features_accuracy": 0.97805,
+          "standard_error": 0.0010361,
+          "mean_total_messages": 2.5973,
+          "expected": {
+            "delivery_probability": 0.9775,
+            "single_feature_accuracy": 0.98875,
+            "both_features_accuracy": 0.9776266,
+            "mean_total_messages": 2.6,
+            "max_total_messages": 6
+          }
+        },
+        "always_two": {
+          "both_features_accuracy": 0.97805,
+          "standard_error": 0.0010361,
+          "mean_total_messages": 4.0,
+          "expected": {
+            "delivery_probability": 0.9775,
+            "single_feature_accuracy": 0.98875,
+            "both_features_accuracy": 0.9776266,
+            "mean_total_messages": 4.0,
+            "max_total_messages": 4
+          }
+        },
+        "always_three": {
+          "both_features_accuracy": 0.9964,
+          "standard_error": 0.0004235,
+          "mean_total_messages": 6.0,
+          "expected": {
+            "delivery_probability": 0.996625,
+            "single_feature_accuracy": 0.9983125,
+            "both_features_accuracy": 0.9966278,
+            "mean_total_messages": 6.0,
+            "max_total_messages": 6
+          }
+        }
+      },
+      "paired_feedback_minus_matched": {
+        "observed_accuracy_difference": 0.0865,
+        "standard_error": 0.0019877,
+        "ci95_low": 0.0826041,
+        "ci95_high": 0.0903959,
+        "predicted_accuracy_difference": 0.0862546
+      }
+    },
+    {
+      "sensory_noise": 0.0,
+      "data_loss": 0.15,
+      "feedback_loss": 0.2,
+      "seed": 821,
+      "trials_per_protocol": 20000,
+      "matched_repeat_probability": 0.27,
+      "protocols": {
+        "one_shot": {
+          "both_features_accuracy": 0.85545,
+          "standard_error": 0.0024865,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 0.85,
+            "single_feature_accuracy": 0.925,
+            "both_features_accuracy": 0.855625,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 2
+          }
+        },
+        "random_repeat_matched": {
+          "both_features_accuracy": 0.88655,
+          "standard_error": 0.0022425,
+          "mean_total_messages": 2.5346,
+          "expected": {
+            "delivery_probability": 0.884425,
+            "single_feature_accuracy": 0.9422125,
+            "both_features_accuracy": 0.8877644,
+            "mean_total_messages": 2.54,
+            "max_total_messages": 4
+          }
+        },
+        "feedback_unreliable": {
+          "both_features_accuracy": 0.951,
+          "standard_error": 0.0015264,
+          "mean_total_messages": 2.5467,
+          "expected": {
+            "delivery_probability": 0.952,
+            "single_feature_accuracy": 0.976,
+            "both_features_accuracy": 0.952576,
+            "mean_total_messages": 2.54,
+            "max_total_messages": 6
+          }
+        },
+        "always_two": {
+          "both_features_accuracy": 0.97815,
+          "standard_error": 0.0010337,
+          "mean_total_messages": 4.0,
+          "expected": {
+            "delivery_probability": 0.9775,
+            "single_feature_accuracy": 0.98875,
+            "both_features_accuracy": 0.9776266,
+            "mean_total_messages": 4.0,
+            "max_total_messages": 4
+          }
+        },
+        "always_three": {
+          "both_features_accuracy": 0.99605,
+          "standard_error": 0.0004435,
+          "mean_total_messages": 6.0,
+          "expected": {
+            "delivery_probability": 0.996625,
+            "single_feature_accuracy": 0.9983125,
+            "both_features_accuracy": 0.9966278,
+            "mean_total_messages": 6.0,
+            "max_total_messages": 6
+          }
+        }
+      },
+      "paired_feedback_minus_matched": {
+        "observed_accuracy_difference": 0.06445,
+        "standard_error": 0.0019118,
+        "ci95_low": 0.060703,
+        "ci95_high": 0.068197,
+        "predicted_accuracy_difference": 0.0648116
+      }
+    },
+    {
+      "sensory_noise": 0.0,
+      "data_loss": 0.15,
+      "feedback_loss": 0.6,
+      "seed": 934,
+      "trials_per_protocol": 20000,
+      "matched_repeat_probability": 0.21,
+      "protocols": {
+        "one_shot": {
+          "both_features_accuracy": 0.8566,
+          "standard_error": 0.0024783,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 0.85,
+            "single_feature_accuracy": 0.925,
+            "both_features_accuracy": 0.855625,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 2
+          }
+        },
+        "random_repeat_matched": {
+          "both_features_accuracy": 0.88075,
+          "standard_error": 0.0022916,
+          "mean_total_messages": 2.4207,
+          "expected": {
+            "delivery_probability": 0.876775,
+            "single_feature_accuracy": 0.9383875,
+            "both_features_accuracy": 0.8805711,
+            "mean_total_messages": 2.42,
+            "max_total_messages": 4
+          }
+        },
+        "feedback_unreliable": {
+          "both_features_accuracy": 0.90455,
+          "standard_error": 0.0020777,
+          "mean_total_messages": 2.42185,
+          "expected": {
+            "delivery_probability": 0.901,
+            "single_feature_accuracy": 0.9505,
+            "both_features_accuracy": 0.9034503,
+            "mean_total_messages": 2.42,
+            "max_total_messages": 6
+          }
+        },
+        "always_two": {
+          "both_features_accuracy": 0.97825,
+          "standard_error": 0.0010314,
+          "mean_total_messages": 4.0,
+          "expected": {
+            "delivery_probability": 0.9775,
+            "single_feature_accuracy": 0.98875,
+            "both_features_accuracy": 0.9776266,
+            "mean_total_messages": 4.0,
+            "max_total_messages": 4
+          }
+        },
+        "always_three": {
+          "both_features_accuracy": 0.9971,
+          "standard_error": 0.0003802,
+          "mean_total_messages": 6.0,
+          "expected": {
+            "delivery_probability": 0.996625,
+            "single_feature_accuracy": 0.9983125,
+            "both_features_accuracy": 0.9966278,
+            "mean_total_messages": 6.0,
+            "max_total_messages": 6
+          }
+        }
+      },
+      "paired_feedback_minus_matched": {
+        "observed_accuracy_difference": 0.0238,
+        "standard_error": 0.0016192,
+        "ci95_low": 0.0206264,
+        "ci95_high": 0.0269736,
+        "predicted_accuracy_difference": 0.0228792
+      }
+    },
+    {
+      "sensory_noise": 0.0,
+      "data_loss": 0.35,
+      "feedback_loss": 0.0,
+      "seed": 1047,
+      "trials_per_protocol": 20000,
+      "matched_repeat_probability": 0.7,
+      "protocols": {
+        "one_shot": {
+          "both_features_accuracy": 0.6846,
+          "standard_error": 0.0032857,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 0.65,
+            "single_feature_accuracy": 0.825,
+            "both_features_accuracy": 0.680625,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 2
+          }
+        },
+        "random_repeat_matched": {
+          "both_features_accuracy": 0.81775,
+          "standard_error": 0.0027298,
+          "mean_total_messages": 3.39465,
+          "expected": {
+            "delivery_probability": 0.80925,
+            "single_feature_accuracy": 0.904625,
+            "both_features_accuracy": 0.8183464,
+            "mean_total_messages": 3.4,
+            "max_total_messages": 4
+          }
+        },
+        "feedback_unreliable": {
+          "both_features_accuracy": 0.88185,
+          "standard_error": 0.0022824,
+          "mean_total_messages": 3.3876,
+          "expected": {
+            "delivery_probability": 0.8775,
+            "single_feature_accuracy": 0.93875,
+            "both_features_accuracy": 0.8812516,
+            "mean_total_messages": 3.4,
+            "max_total_messages": 6
+          }
+        },
+        "always_two": {
+          "both_features_accuracy": 0.88185,
+          "standard_error": 0.0022824,
+          "mean_total_messages": 4.0,
+          "expected": {
+            "delivery_probability": 0.8775,
+            "single_feature_accuracy": 0.93875,
+            "both_features_accuracy": 0.8812516,
+            "mean_total_messages": 4.0,
+            "max_total_messages": 4
+          }
+        },
+        "always_three": {
+          "both_features_accuracy": 0.9603,
+          "standard_error": 0.0013807,
+          "mean_total_messages": 6.0,
+          "expected": {
+            "delivery_probability": 0.957125,
+            "single_feature_accuracy": 0.9785625,
+            "both_features_accuracy": 0.9575846,
+            "mean_total_messages": 6.0,
+            "max_total_messages": 6
+          }
+        }
+      },
+      "paired_feedback_minus_matched": {
+        "observed_accuracy_difference": 0.0641,
+        "standard_error": 0.0017319,
+        "ci95_low": 0.0607054,
+        "ci95_high": 0.0674946,
+        "predicted_accuracy_difference": 0.0629052
+      }
+    },
+    {
+      "sensory_noise": 0.0,
+      "data_loss": 0.35,
+      "feedback_loss": 0.2,
+      "seed": 1160,
+      "trials_per_protocol": 20000,
+      "matched_repeat_probability": 0.63,
+      "protocols": {
+        "one_shot": {
+          "both_features_accuracy": 0.679,
+          "standard_error": 0.0033012,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 0.65,
+            "single_feature_accuracy": 0.825,
+            "both_features_accuracy": 0.680625,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 2
+          }
+        },
+        "random_repeat_matched": {
+          "both_features_accuracy": 0.7988,
+          "standard_error": 0.0028348,
+          "mean_total_messages": 3.25095,
+          "expected": {
+            "delivery_probability": 0.793325,
+            "single_feature_accuracy": 0.8966625,
+            "both_features_accuracy": 0.8040036,
+            "mean_total_messages": 3.26,
+            "max_total_messages": 4
+          }
+        },
+        "feedback_unreliable": {
+          "both_features_accuracy": 0.8387,
+          "standard_error": 0.0026008,
+          "mean_total_messages": 3.27195,
+          "expected": {
+            "delivery_probability": 0.832,
+            "single_feature_accuracy": 0.916,
+            "both_features_accuracy": 0.839056,
+            "mean_total_messages": 3.26,
+            "max_total_messages": 6
+          }
+        },
+        "always_two": {
+          "both_features_accuracy": 0.8779,
+          "standard_error": 0.0023151,
+          "mean_total_messages": 4.0,
+          "expected": {
+            "delivery_probability": 0.8775,
+            "single_feature_accuracy": 0.93875,
+            "both_features_accuracy": 0.8812516,
+            "mean_total_messages": 4.0,
+            "max_total_messages": 4
+          }
+        },
+        "always_three": {
+          "both_features_accuracy": 0.956,
+          "standard_error": 0.0014502,
+          "mean_total_messages": 6.0,
+          "expected": {
+            "delivery_probability": 0.957125,
+            "single_feature_accuracy": 0.9785625,
+            "both_features_accuracy": 0.9575846,
+            "mean_total_messages": 6.0,
+            "max_total_messages": 6
+          }
+        }
+      },
+      "paired_feedback_minus_matched": {
+        "observed_accuracy_difference": 0.0399,
+        "standard_error": 0.0020858,
+        "ci95_low": 0.0358119,
+        "ci95_high": 0.0439881,
+        "predicted_accuracy_difference": 0.0350524
+      }
+    },
+    {
+      "sensory_noise": 0.0,
+      "data_loss": 0.35,
+      "feedback_loss": 0.6,
+      "seed": 1273,
+      "trials_per_protocol": 20000,
+      "matched_repeat_probability": 0.49,
+      "protocols": {
+        "one_shot": {
+          "both_features_accuracy": 0.6759,
+          "standard_error": 0.0033095,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 0.65,
+            "single_feature_accuracy": 0.825,
+            "both_features_accuracy": 0.680625,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 2
+          }
+        },
+        "random_repeat_matched": {
+          "both_features_accuracy": 0.7708,
+          "standard_error": 0.0029721,
+          "mean_total_messages": 2.98645,
+          "expected": {
+            "delivery_probability": 0.761475,
+            "single_feature_accuracy": 0.8807375,
+            "both_features_accuracy": 0.7756985,
+            "mean_total_messages": 2.98,
+            "max_total_messages": 4
+          }
+        },
+        "feedback_unreliable": {
+          "both_features_accuracy": 0.7511,
+          "standard_error": 0.0030574,
+          "mean_total_messages": 2.98285,
+          "expected": {
+            "delivery_probability": 0.741,
+            "single_feature_accuracy": 0.8705,
+            "both_features_accuracy": 0.7577703,
+            "mean_total_messages": 2.98,
+            "max_total_messages": 6
+          }
+        },
+        "always_two": {
+          "both_features_accuracy": 0.8781,
+          "standard_error": 0.0023134,
+          "mean_total_messages": 4.0,
+          "expected": {
+            "delivery_probability": 0.8775,
+            "single_feature_accuracy": 0.93875,
+            "both_features_accuracy": 0.8812516,
+            "mean_total_messages": 4.0,
+            "max_total_messages": 4
+          }
+        },
+        "always_three": {
+          "both_features_accuracy": 0.9542,
+          "standard_error": 0.0014782,
+          "mean_total_messages": 6.0,
+          "expected": {
+            "delivery_probability": 0.957125,
+            "single_feature_accuracy": 0.9785625,
+            "both_features_accuracy": 0.9575846,
+            "mean_total_messages": 6.0,
+            "max_total_messages": 6
+          }
+        }
+      },
+      "paired_feedback_minus_matched": {
+        "observed_accuracy_difference": -0.0197,
+        "standard_error": 0.0022013,
+        "ci95_low": -0.0240145,
+        "ci95_high": -0.0153855,
+        "predicted_accuracy_difference": -0.0179282
+      }
+    },
+    {
+      "sensory_noise": 0.1,
+      "data_loss": 0.0,
+      "feedback_loss": 0.0,
+      "seed": 1386,
+      "trials_per_protocol": 20000,
+      "matched_repeat_probability": 0.0,
+      "protocols": {
+        "one_shot": {
+          "both_features_accuracy": 0.81705,
+          "standard_error": 0.0027339,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 0.9,
+            "both_features_accuracy": 0.81,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 2
+          }
+        },
+        "random_repeat_matched": {
+          "both_features_accuracy": 0.81705,
+          "standard_error": 0.0027339,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 0.9,
+            "both_features_accuracy": 0.81,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 4
+          }
+        },
+        "feedback_unreliable": {
+          "both_features_accuracy": 0.81705,
+          "standard_error": 0.0027339,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 0.9,
+            "both_features_accuracy": 0.81,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 6
+          }
+        },
+        "always_two": {
+          "both_features_accuracy": 0.81705,
+          "standard_error": 0.0027339,
+          "mean_total_messages": 4.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 0.9,
+            "both_features_accuracy": 0.81,
+            "mean_total_messages": 4.0,
+            "max_total_messages": 4
+          }
+        },
+        "always_three": {
+          "both_features_accuracy": 0.81705,
+          "standard_error": 0.0027339,
+          "mean_total_messages": 6.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 0.9,
+            "both_features_accuracy": 0.81,
+            "mean_total_messages": 6.0,
+            "max_total_messages": 6
+          }
+        }
+      },
+      "paired_feedback_minus_matched": {
+        "observed_accuracy_difference": 0.0,
+        "standard_error": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0,
+        "predicted_accuracy_difference": 0.0
+      }
+    },
+    {
+      "sensory_noise": 0.1,
+      "data_loss": 0.0,
+      "feedback_loss": 0.2,
+      "seed": 1499,
+      "trials_per_protocol": 20000,
+      "matched_repeat_probability": 0.0,
+      "protocols": {
+        "one_shot": {
+          "both_features_accuracy": 0.80765,
+          "standard_error": 0.002787,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 0.9,
+            "both_features_accuracy": 0.81,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 2
+          }
+        },
+        "random_repeat_matched": {
+          "both_features_accuracy": 0.80765,
+          "standard_error": 0.002787,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 0.9,
+            "both_features_accuracy": 0.81,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 4
+          }
+        },
+        "feedback_unreliable": {
+          "both_features_accuracy": 0.80765,
+          "standard_error": 0.002787,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 0.9,
+            "both_features_accuracy": 0.81,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 6
+          }
+        },
+        "always_two": {
+          "both_features_accuracy": 0.80765,
+          "standard_error": 0.002787,
+          "mean_total_messages": 4.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 0.9,
+            "both_features_accuracy": 0.81,
+            "mean_total_messages": 4.0,
+            "max_total_messages": 4
+          }
+        },
+        "always_three": {
+          "both_features_accuracy": 0.80765,
+          "standard_error": 0.002787,
+          "mean_total_messages": 6.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 0.9,
+            "both_features_accuracy": 0.81,
+            "mean_total_messages": 6.0,
+            "max_total_messages": 6
+          }
+        }
+      },
+      "paired_feedback_minus_matched": {
+        "observed_accuracy_difference": 0.0,
+        "standard_error": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0,
+        "predicted_accuracy_difference": 0.0
+      }
+    },
+    {
+      "sensory_noise": 0.1,
+      "data_loss": 0.0,
+      "feedback_loss": 0.6,
+      "seed": 1612,
+      "trials_per_protocol": 20000,
+      "matched_repeat_probability": 0.0,
+      "protocols": {
+        "one_shot": {
+          "both_features_accuracy": 0.81285,
+          "standard_error": 0.0027579,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 0.9,
+            "both_features_accuracy": 0.81,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 2
+          }
+        },
+        "random_repeat_matched": {
+          "both_features_accuracy": 0.81285,
+          "standard_error": 0.0027579,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 0.9,
+            "both_features_accuracy": 0.81,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 4
+          }
+        },
+        "feedback_unreliable": {
+          "both_features_accuracy": 0.81285,
+          "standard_error": 0.0027579,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 0.9,
+            "both_features_accuracy": 0.81,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 6
+          }
+        },
+        "always_two": {
+          "both_features_accuracy": 0.81285,
+          "standard_error": 0.0027579,
+          "mean_total_messages": 4.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 0.9,
+            "both_features_accuracy": 0.81,
+            "mean_total_messages": 4.0,
+            "max_total_messages": 4
+          }
+        },
+        "always_three": {
+          "both_features_accuracy": 0.81285,
+          "standard_error": 0.0027579,
+          "mean_total_messages": 6.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 0.9,
+            "both_features_accuracy": 0.81,
+            "mean_total_messages": 6.0,
+            "max_total_messages": 6
+          }
+        }
+      },
+      "paired_feedback_minus_matched": {
+        "observed_accuracy_difference": 0.0,
+        "standard_error": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0,
+        "predicted_accuracy_difference": 0.0
+      }
+    },
+    {
+      "sensory_noise": 0.1,
+      "data_loss": 0.15,
+      "feedback_loss": 0.0,
+      "seed": 1725,
+      "trials_per_protocol": 20000,
+      "matched_repeat_probability": 0.3,
+      "protocols": {
+        "one_shot": {
+          "both_features_accuracy": 0.71055,
+          "standard_error": 0.0032068,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 2
+          }
+        },
+        "random_repeat_matched": {
+          "both_features_accuracy": 0.7343,
+          "standard_error": 0.0031233,
+          "mean_total_messages": 2.60405,
+          "expected": {
+            "delivery_probability": 0.88825,
+            "single_feature_accuracy": 0.8553,
+            "both_features_accuracy": 0.7315381,
+            "mean_total_messages": 2.6,
+            "max_total_messages": 4
+          }
+        },
+        "feedback_unreliable": {
+          "both_features_accuracy": 0.79325,
+          "standard_error": 0.0028636,
+          "mean_total_messages": 2.5932,
+          "expected": {
+            "delivery_probability": 0.9775,
+            "single_feature_accuracy": 0.891,
+            "both_features_accuracy": 0.793881,
+            "mean_total_messages": 2.6,
+            "max_total_messages": 6
+          }
+        },
+        "always_two": {
+          "both_features_accuracy": 0.79325,
+          "standard_error": 0.0028636,
+          "mean_total_messages": 4.0,
+          "expected": {
+            "delivery_probability": 0.9775,
+            "single_feature_accuracy": 0.891,
+            "both_features_accuracy": 0.793881,
+            "mean_total_messages": 4.0,
+            "max_total_messages": 4
+          }
+        },
+        "always_three": {
+          "both_features_accuracy": 0.80725,
+          "standard_error": 0.0027892,
+          "mean_total_messages": 6.0,
+          "expected": {
+            "delivery_probability": 0.996625,
+            "single_feature_accuracy": 0.89865,
+            "both_features_accuracy": 0.8075718,
+            "mean_total_messages": 6.0,
+            "max_total_messages": 6
+          }
+        }
+      },
+      "paired_feedback_minus_matched": {
+        "observed_accuracy_difference": 0.05895,        "standard_error": 0.0018904,
+        "ci95_low": 0.0552447,
+        "ci95_high": 0.0626553,
+        "predicted_accuracy_difference": 0.0623429
+      }
+    },
+    {
+      "sensory_noise": 0.1,
+      "data_loss": 0.15,
+      "feedback_loss": 0.2,
+      "seed": 1838,
+      "trials_per_protocol": 20000,
+      "matched_repeat_probability": 0.27,
+      "protocols": {
+        "one_shot": {
+          "both_features_accuracy": 0.7071,
+          "standard_error": 0.003218,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 2
+          }
+        },
+        "random_repeat_matched": {
+          "both_features_accuracy": 0.72975,
+          "standard_error": 0.0031402,
+          "mean_total_messages": 2.5325,
+          "expected": {
+            "delivery_probability": 0.884425,
+            "single_feature_accuracy": 0.85377,
+            "both_features_accuracy": 0.7289232,
+            "mean_total_messages": 2.54,
+            "max_total_messages": 4
+          }
+        },
+        "feedback_unreliable": {
+          "both_features_accuracy": 0.77595,
+          "standard_error": 0.0029483,
+          "mean_total_messages": 2.5374,
+          "expected": {
+            "delivery_probability": 0.952,
+            "single_feature_accuracy": 0.8808,
+            "both_features_accuracy": 0.7758086,
+            "mean_total_messages": 2.54,
+            "max_total_messages": 6
+          }
+        },
+        "always_two": {
+          "both_features_accuracy": 0.7931,
+          "standard_error": 0.0028644,
+          "mean_total_messages": 4.0,
+          "expected": {
+            "delivery_probability": 0.9775,
+            "single_feature_accuracy": 0.891,
+            "both_features_accuracy": 0.793881,
+            "mean_total_messages": 4.0,
+            "max_total_messages": 4
+          }
+        },
+        "always_three": {
+          "both_features_accuracy": 0.808,
+          "standard_error": 0.0027851,
+          "mean_total_messages": 6.0,
+          "expected": {
+            "delivery_probability": 0.996625,
+            "single_feature_accuracy": 0.89865,
+            "both_features_accuracy": 0.8075718,
+            "mean_total_messages": 6.0,
+            "max_total_messages": 6
+          }
+        }
+      },
+      "paired_feedback_minus_matched": {
+        "observed_accuracy_difference": 0.0462,
+        "standard_error": 0.0018502,
+        "ci95_low": 0.0425736,
+        "ci95_high": 0.0498264,
+        "predicted_accuracy_difference": 0.0468854
+      }
+    },
+    {
+      "sensory_noise": 0.1,
+      "data_loss": 0.15,
+      "feedback_loss": 0.6,
+      "seed": 1951,
+      "trials_per_protocol": 20000,
+      "matched_repeat_probability": 0.21,
+      "protocols": {
+        "one_shot": {
+          "both_features_accuracy": 0.7048,
+          "standard_error": 0.0032253,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 2
+          }
+        },
+        "random_repeat_matched": {
+          "both_features_accuracy": 0.7225,
+          "standard_error": 0.0031662,
+          "mean_total_messages": 2.4152,
+          "expected": {
+            "delivery_probability": 0.876775,
+            "single_feature_accuracy": 0.85071,
+            "both_features_accuracy": 0.7237075,
+            "mean_total_messages": 2.42,
+            "max_total_messages": 4
+          }
+        },
+        "feedback_unreliable": {
+          "both_features_accuracy": 0.7394,
+          "standard_error": 0.0031039,
+          "mean_total_messages": 2.41425,
+          "expected": {
+            "delivery_probability": 0.901,
+            "single_feature_accuracy": 0.8604,
+            "both_features_accuracy": 0.7402882,
+            "mean_total_messages": 2.42,
+            "max_total_messages": 6
+          }
+        },
+        "always_two": {
+          "both_features_accuracy": 0.7957,
+          "standard_error": 0.002851,
+          "mean_total_messages": 4.0,
+          "expected": {
+            "delivery_probability": 0.9775,
+            "single_feature_accuracy": 0.891,
+            "both_features_accuracy": 0.793881,
+            "mean_total_messages": 4.0,
+            "max_total_messages": 4
+          }
+        },
+        "always_three": {
+          "both_features_accuracy": 0.8092,
+          "standard_error": 0.0027784,
+          "mean_total_messages": 6.0,
+          "expected": {
+            "delivery_probability": 0.996625,
+            "single_feature_accuracy": 0.89865,
+            "both_features_accuracy": 0.8075718,
+            "mean_total_messages": 6.0,
+            "max_total_messages": 6
+          }
+        }
+      },
+      "paired_feedback_minus_matched": {
+        "observed_accuracy_difference": 0.0169,
+        "standard_error": 0.0015348,
+        "ci95_low": 0.0138917,
+        "ci95_high": 0.0199083,
+        "predicted_accuracy_difference": 0.0165807
+      }
+    },
+    {
+      "sensory_noise": 0.1,
+      "data_loss": 0.35,
+      "feedback_loss": 0.0,
+      "seed": 2064,
+      "trials_per_protocol": 20000,
+      "matched_repeat_probability": 0.7,
+      "protocols": {
+        "one_shot": {
+          "both_features_accuracy": 0.5781,
+          "standard_error": 0.0034921,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 2
+          }
+        },
+        "random_repeat_matched": {
+          "both_features_accuracy": 0.6795,
+          "standard_error": 0.0032998,
+          "mean_total_messages": 3.4021,
+          "expected": {
+            "delivery_probability": 0.80925,
+            "single_feature_accuracy": 0.8237,
+            "both_features_accuracy": 0.6784817,
+            "mean_total_messages": 3.4,
+            "max_total_messages": 4
+          }
+        },
+        "feedback_unreliable": {
+          "both_features_accuracy": 0.7235,
+          "standard_error": 0.0031627,
+          "mean_total_messages": 3.3867,
+          "expected": {
+            "delivery_probability": 0.8775,
+            "single_feature_accuracy": 0.851,
+            "both_features_accuracy": 0.724201,
+            "mean_total_messages": 3.4,
+            "max_total_messages": 6
+          }
+        },
+        "always_two": {
+          "both_features_accuracy": 0.7235,
+          "standard_error": 0.0031627,
+          "mean_total_messages": 4.0,
+          "expected": {
+            "delivery_probability": 0.8775,
+            "single_feature_accuracy": 0.851,
+            "both_features_accuracy": 0.724201,
+            "mean_total_messages": 4.0,
+            "max_total_messages": 4
+          }
+        },
+        "always_three": {
+          "both_features_accuracy": 0.7759,
+          "standard_error": 0.0029486,
+          "mean_total_messages": 6.0,
+          "expected": {
+            "delivery_probability": 0.957125,
+            "single_feature_accuracy": 0.88285,
+            "both_features_accuracy": 0.7794241,
+            "mean_total_messages": 6.0,
+            "max_total_messages": 6
+          }
+        }
+      },
+      "paired_feedback_minus_matched": {
+        "observed_accuracy_difference": 0.044,
+        "standard_error": 0.0016426,
+        "ci95_low": 0.0407805,
+        "ci95_high": 0.0472195,
+        "predicted_accuracy_difference": 0.0457193
+      }
+    },
+    {
+      "sensory_noise": 0.1,
+      "data_loss": 0.35,
+      "feedback_loss": 0.2,
+      "seed": 2177,
+      "trials_per_protocol": 20000,
+      "matched_repeat_probability": 0.63,
+      "protocols": {
+        "one_shot": {
+          "both_features_accuracy": 0.5836,
+          "standard_error": 0.0034858,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 2
+          }
+        },
+        "random_repeat_matched": {
+          "both_features_accuracy": 0.673,
+          "standard_error": 0.0033172,
+          "mean_total_messages": 3.24955,
+          "expected": {
+            "delivery_probability": 0.793325,
+            "single_feature_accuracy": 0.81733,
+            "both_features_accuracy": 0.6680283,
+            "mean_total_messages": 3.26,
+            "max_total_messages": 4
+          }
+        },
+        "feedback_unreliable": {
+          "both_features_accuracy": 0.6964,
+          "standard_error": 0.0032514,
+          "mean_total_messages": 3.2734,
+          "expected": {
+            "delivery_probability": 0.832,
+            "single_feature_accuracy": 0.8328,
+            "both_features_accuracy": 0.6935558,
+            "mean_total_messages": 3.26,
+            "max_total_messages": 6
+          }
+        },
+        "always_two": {
+          "both_features_accuracy": 0.7264,
+          "standard_error": 0.0031523,
+          "mean_total_messages": 4.0,
+          "expected": {
+            "delivery_probability": 0.8775,
+            "single_feature_accuracy": 0.851,
+            "both_features_accuracy": 0.724201,
+            "mean_total_messages": 4.0,
+            "max_total_messages": 4
+          }
+        },
+        "always_three": {
+          "both_features_accuracy": 0.78345,
+          "standard_error": 0.0029125,
+          "mean_total_messages": 6.0,
+          "expected": {
+            "delivery_probability": 0.957125,
+            "single_feature_accuracy": 0.88285,
+            "both_features_accuracy": 0.7794241,
+            "mean_total_messages": 6.0,
+            "max_total_messages": 6
+          }
+        }
+      },
+      "paired_feedback_minus_matched": {
+        "observed_accuracy_difference": 0.0234,
+        "standard_error": 0.0019475,
+        "ci95_low": 0.019583,
+        "ci95_high": 0.027217,
+        "predicted_accuracy_difference": 0.0255275
+      }
+    },
+    {
+      "sensory_noise": 0.1,
+      "data_loss": 0.35,
+      "feedback_loss": 0.6,
+      "seed": 2290,
+      "trials_per_protocol": 20000,
+      "matched_repeat_probability": 0.49,
+      "protocols": {
+        "one_shot": {
+          "both_features_accuracy": 0.57255,
+          "standard_error": 0.0034981,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 2
+          }
+        },
+        "random_repeat_matched": {
+          "both_features_accuracy": 0.6393,
+          "standard_error": 0.0033956,
+          "mean_total_messages": 2.97875,
+          "expected": {
+            "delivery_probability": 0.761475,
+            "single_feature_accuracy": 0.80459,
+            "both_features_accuracy": 0.6473651,
+            "mean_total_messages": 2.98,
+            "max_total_messages": 4
+          }
+        },
+        "feedback_unreliable": {
+          "both_features_accuracy": 0.6256,
+          "standard_error": 0.0034222,
+          "mean_total_messages": 2.98885,
+          "expected": {
+            "delivery_probability": 0.741,
+            "single_feature_accuracy": 0.7964,
+            "both_features_accuracy": 0.634253,
+            "mean_total_messages": 2.98,
+            "max_total_messages": 6
+          }
+        },
+        "always_two": {
+          "both_features_accuracy": 0.71895,
+          "standard_error": 0.0031785,
+          "mean_total_messages": 4.0,
+          "expected": {
+            "delivery_probability": 0.8775,
+            "single_feature_accuracy": 0.851,
+            "both_features_accuracy": 0.724201,
+            "mean_total_messages": 4.0,
+            "max_total_messages": 4
+          }
+        },
+        "always_three": {
+          "both_features_accuracy": 0.7742,
+          "standard_error": 0.0029565,
+          "mean_total_messages": 6.0,
+          "expected": {
+            "delivery_probability": 0.957125,
+            "single_feature_accuracy": 0.88285,
+            "both_features_accuracy": 0.7794241,
+            "mean_total_messages": 6.0,
+            "max_total_messages": 6
+          }
+        }
+      },
+      "paired_feedback_minus_matched": {
+        "observed_accuracy_difference": -0.0137,
+        "standard_error": 0.002112,
+        "ci95_low": -0.0178396,
+        "ci95_high": -0.0095604,
+        "predicted_accuracy_difference": -0.0131121
+      }
+    },
+    {
+      "sensory_noise": 0.25,
+      "data_loss": 0.0,
+      "feedback_loss": 0.0,
+      "seed": 2403,
+      "trials_per_protocol": 20000,
+      "matched_repeat_probability": 0.0,
+      "protocols": {
+        "one_shot": {
+          "both_features_accuracy": 0.5647,
+          "standard_error": 0.0035058,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 0.75,
+            "both_features_accuracy": 0.5625,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 2
+          }
+        },
+        "random_repeat_matched": {
+          "both_features_accuracy": 0.5647,
+          "standard_error": 0.0035058,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 0.75,
+            "both_features_accuracy": 0.5625,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 4
+          }
+        },
+        "feedback_unreliable": {
+          "both_features_accuracy": 0.5647,
+          "standard_error": 0.0035058,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 0.75,
+            "both_features_accuracy": 0.5625,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 6
+          }
+        },
+        "always_two": {
+          "both_features_accuracy": 0.5647,
+          "standard_error": 0.0035058,
+          "mean_total_messages": 4.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 0.75,
+            "both_features_accuracy": 0.5625,
+            "mean_total_messages": 4.0,
+            "max_total_messages": 4
+          }
+        },
+        "always_three": {
+          "both_features_accuracy": 0.5647,
+          "standard_error": 0.0035058,
+          "mean_total_messages": 6.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 0.75,
+            "both_features_accuracy": 0.5625,
+            "mean_total_messages": 6.0,
+            "max_total_messages": 6
+          }
+        }
+      },
+      "paired_feedback_minus_matched": {
+        "observed_accuracy_difference": 0.0,
+        "standard_error": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0,
+        "predicted_accuracy_difference": 0.0
+      }
+    },
+    {
+      "sensory_noise": 0.25,
+      "data_loss": 0.0,
+      "feedback_loss": 0.2,
+      "seed": 2516,
+      "trials_per_protocol": 20000,
+      "matched_repeat_probability": 0.0,
+      "protocols": {
+        "one_shot": {
+          "both_features_accuracy": 0.5642,
+          "standard_error": 0.0035063,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 0.75,
+            "both_features_accuracy": 0.5625,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 2
+          }
+        },
+        "random_repeat_matched": {
+          "both_features_accuracy": 0.5642,
+          "standard_error": 0.0035063,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 0.75,
+            "both_features_accuracy": 0.5625,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 4
+          }
+        },
+        "feedback_unreliable": {
+          "both_features_accuracy": 0.5642,
+          "standard_error": 0.0035063,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 0.75,
+            "both_features_accuracy": 0.5625,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 6
+          }
+        },
+        "always_two": {
+          "both_features_accuracy": 0.5642,
+          "standard_error": 0.0035063,
+          "mean_total_messages": 4.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 0.75,
+            "both_features_accuracy": 0.5625,
+            "mean_total_messages": 4.0,
+            "max_total_messages": 4
+          }
+        },
+        "always_three": {
+          "both_features_accuracy": 0.5642,
+          "standard_error": 0.0035063,
+          "mean_total_messages": 6.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 0.75,
+            "both_features_accuracy": 0.5625,
+            "mean_total_messages": 6.0,
+            "max_total_messages": 6
+          }
+        }
+      },
+      "paired_feedback_minus_matched": {
+        "observed_accuracy_difference": 0.0,
+        "standard_error": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0,
+        "predicted_accuracy_difference": 0.0
+      }
+    },
+    {
+      "sensory_noise": 0.25,
+      "data_loss": 0.0,
+      "feedback_loss": 0.6,
+      "seed": 2629,
+      "trials_per_protocol": 20000,
+      "matched_repeat_probability": 0.0,
+      "protocols": {
+        "one_shot": {
+          "both_features_accuracy": 0.563,
+          "standard_error": 0.0035074,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 0.75,
+            "both_features_accuracy": 0.5625,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 2
+          }
+        },
+        "random_repeat_matched": {
+          "both_features_accuracy": 0.563,
+          "standard_error": 0.0035074,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 0.75,
+            "both_features_accuracy": 0.5625,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 4
+          }
+        },
+        "feedback_unreliable": {
+          "both_features_accuracy": 0.563,
+          "standard_error": 0.0035074,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 0.75,
+            "both_features_accuracy": 0.5625,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 6
+          }
+        },
+        "always_two": {
+          "both_features_accuracy": 0.563,
+          "standard_error": 0.0035074,
+          "mean_total_messages": 4.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 0.75,
+            "both_features_accuracy": 0.5625,
+            "mean_total_messages": 4.0,
+            "max_total_messages": 4
+          }
+        },
+        "always_three": {
+          "both_features_accuracy": 0.563,
+          "standard_error": 0.0035074,
+          "mean_total_messages": 6.0,
+          "expected": {
+            "delivery_probability": 1.0,
+            "single_feature_accuracy": 0.75,
+            "both_features_accuracy": 0.5625,
+            "mean_total_messages": 6.0,
+            "max_total_messages": 6
+          }
+        }
+      },
+      "paired_feedback_minus_matched": {
+        "observed_accuracy_difference": 0.0,
+        "standard_error": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0,
+        "predicted_accuracy_difference": 0.0
+      }
+    },
+    {
+      "sensory_noise": 0.25,
+      "data_loss": 0.15,
+      "feedback_loss": 0.0,
+      "seed": 2742,
+      "trials_per_protocol": 20000,
+      "matched_repeat_probability": 0.3,
+      "protocols": {
+        "one_shot": {
+          "both_features_accuracy": 0.51125,
+          "standard_error": 0.0035346,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 0.85,
+            "single_feature_accuracy": 0.7125,
+            "both_features_accuracy": 0.5076563,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 2
+          }
+        },
+        "random_repeat_matched": {
+          "both_features_accuracy": 0.52425,
+          "standard_error": 0.0035314,
+          "mean_total_messages": 2.60035,
+          "expected": {
+            "delivery_probability": 0.88825,
+            "single_feature_accuracy": 0.7220625,
+            "both_features_accuracy": 0.5213743,
+            "mean_total_messages": 2.6,
+            "max_total_messages": 4
+          }
+        },
+        "feedback_unreliable": {
+          "both_features_accuracy": 0.55815,
+          "standard_error": 0.0035115,
+          "mean_total_messages": 2.5892,
+          "expected": {
+            "delivery_probability": 0.9775,
+            "single_feature_accuracy": 0.744375,
+            "both_features_accuracy": 0.5540941,
+            "mean_total_messages": 2.6,
+            "max_total_messages": 6
+          }
+        },
+        "always_two": {
+          "both_features_accuracy": 0.55815,
+          "standard_error": 0.0035115,
+          "mean_total_messages": 4.0,
+          "expected": {
+            "delivery_probability": 0.9775,
+            "single_feature_accuracy": 0.744375,
+            "both_features_accuracy": 0.5540941,
+            "mean_total_messages": 4.0,
+            "max_total_messages": 4
+          }
+        },
+        "always_three": {
+          "both_features_accuracy": 0.565,
+          "standard_error": 0.0035055,
+          "mean_total_messages": 6.0,
+          "expected": {
+            "delivery_probability": 0.996625,
+            "single_feature_accuracy": 0.7491562,
+            "both_features_accuracy": 0.5612351,
+            "mean_total_messages": 6.0,
+            "max_total_messages": 6
+          }
+        }
+      },
+      "paired_feedback_minus_matched": {
+        "observed_accuracy_difference": 0.0339,
+        "standard_error": 0.0017543,
+        "ci95_low": 0.0304616,
+        "ci95_high": 0.0373384,
+        "predicted_accuracy_difference": 0.0327198
+      }
+    },
+    {
+      "sensory_noise": 0.25,
+      "data_loss": 0.15,
+      "feedback_loss": 0.2,
+      "seed": 2855,
+      "trials_per_protocol": 20000,
+      "matched_repeat_probability": 0.27,
+      "protocols": {
+        "one_shot": {
+          "both_features_accuracy": 0.50925,
+          "standard_error": 0.0035349,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 0.85,
+            "single_feature_accuracy": 0.7125,
+            "both_features_accuracy": 0.5076563,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 2
+          }
+        },
+        "random_repeat_matched": {
+          "both_features_accuracy": 0.5224,
+          "standard_error": 0.003532,
+          "mean_total_messages": 2.5465,
+          "expected": {
+            "delivery_probability": 0.884425,
+            "single_feature_accuracy": 0.7211063,
+            "both_features_accuracy": 0.5199942,
+            "mean_total_messages": 2.54,
+            "max_total_messages": 4
+          }
+        },
+        "feedback_unreliable": {
+          "both_features_accuracy": 0.5476,
+          "standard_error": 0.0035195,
+          "mean_total_messages": 2.53595,
+          "expected": {
+            "delivery_probability": 0.952,
+            "single_feature_accuracy": 0.738,
+            "both_features_accuracy": 0.544644,
+            "mean_total_messages": 2.54,
+            "max_total_messages": 6
+          }
+        },
+        "always_two": {
+          "both_features_accuracy": 0.55685,
+          "standard_error": 0.0035126,
+          "mean_total_messages": 4.0,
+          "expected": {
+            "delivery_probability": 0.9775,
+            "single_feature_accuracy": 0.744375,
+            "both_features_accuracy": 0.5540941,
+            "mean_total_messages": 4.0,
+            "max_total_messages": 4
+          }
+        },
+        "always_three": {
+          "both_features_accuracy": 0.56355,
+          "standard_error": 0.0035069,
+          "mean_total_messages": 6.0,
+          "expected": {
+            "delivery_probability": 0.996625,
+            "single_feature_accuracy": 0.7491562,
+            "both_features_accuracy": 0.5612351,
+            "mean_total_messages": 6.0,
+            "max_total_messages": 6
+          }
+        }
+      },
+      "paired_feedback_minus_matched": {
+        "observed_accuracy_difference": 0.0252,
+        "standard_error": 0.0016758,
+        "ci95_low": 0.0219155,
+        "ci95_high": 0.0284845,
+        "predicted_accuracy_difference": 0.0246498
+      }
+    },
+    {
+      "sensory_noise": 0.25,
+      "data_loss": 0.15,
+      "feedback_loss": 0.6,
+      "seed": 2968,
+      "trials_per_protocol": 20000,
+      "matched_repeat_probability": 0.21,
+      "protocols": {
+        "one_shot": {
+          "both_features_accuracy": 0.505,
+          "standard_error": 0.0035354,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 0.85,
+            "single_feature_accuracy": 0.7125,
+            "both_features_accuracy": 0.5076563,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 2
+          }
+        },
+        "random_repeat_matched": {
+          "both_features_accuracy": 0.51535,
+          "standard_error": 0.0035339,
+          "mean_total_messages": 2.42895,
+          "expected": {
+            "delivery_probability": 0.876775,
+            "single_feature_accuracy": 0.7191937,
+            "both_features_accuracy": 0.5172397,
+            "mean_total_messages": 2.42,
+            "max_total_messages": 4
+          }
+        },
+        "feedback_unreliable": {
+          "both_features_accuracy": 0.5235,
+          "standard_error": 0.0035316,
+          "mean_total_messages": 2.4161,
+          "expected": {
+            "delivery_probability": 0.901,
+            "single_feature_accuracy": 0.72525,
+            "both_features_accuracy": 0.5259876,
+            "mean_total_messages": 2.42,
+            "max_total_messages": 6
+          }
+        },
+        "always_two": {
+          "both_features_accuracy": 0.5513,
+          "standard_error": 0.0035169,
+          "mean_total_messages": 4.0,
+          "expected": {
+            "delivery_probability": 0.9775,
+            "single_feature_accuracy": 0.744375,
+            "both_features_accuracy": 0.5540941,
+            "mean_total_messages": 4.0,
+            "max_total_messages": 4
+          }
+        },
+        "always_three": {
+          "both_features_accuracy": 0.55725,
+          "standard_error": 0.0035123,
+          "mean_total_messages": 6.0,
+          "expected": {
+            "delivery_probability": 0.996625,
+            "single_feature_accuracy": 0.7491562,
+            "both_features_accuracy": 0.5612351,
+            "mean_total_messages": 6.0,
+            "max_total_messages": 6
+          }
+        }
+      },
+      "paired_feedback_minus_matched": {
+        "observed_accuracy_difference": 0.00815,
+        "standard_error": 0.0013997,
+        "ci95_low": 0.0054066,
+        "ci95_high": 0.0108934,
+        "predicted_accuracy_difference": 0.0087479
+      }
+    },
+    {
+      "sensory_noise": 0.25,
+      "data_loss": 0.35,
+      "feedback_loss": 0.0,
+      "seed": 3081,
+      "trials_per_protocol": 20000,
+      "matched_repeat_probability": 0.7,
+      "protocols": {
+        "one_shot": {
+          "both_features_accuracy": 0.432,
+          "standard_error": 0.0035027,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 0.65,
+            "single_feature_accuracy": 0.6625,
+            "both_features_accuracy": 0.4389062,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 2
+          }
+        },
+        "random_repeat_matched": {
+          "both_features_accuracy": 0.48785,
+          "standard_error": 0.0035345,
+          "mean_total_messages": 3.40285,
+          "expected": {
+            "delivery_probability": 0.80925,
+            "single_feature_accuracy": 0.7023125,
+            "both_features_accuracy": 0.4932428,
+            "mean_total_messages": 3.4,
+            "max_total_messages": 4
+          }
+        },
+        "feedback_unreliable": {
+          "both_features_accuracy": 0.5143,
+          "standard_error": 0.0035341,
+          "mean_total_messages": 3.3996,
+          "expected": {
+            "delivery_probability": 0.8775,
+            "single_feature_accuracy": 0.719375,
+            "both_features_accuracy": 0.5175004,
+            "mean_total_messages": 3.4,
+            "max_total_messages": 6
+          }
+        },
+        "always_two": {
+          "both_features_accuracy": 0.5143,
+          "standard_error": 0.0035341,
+          "mean_total_messages": 4.0,
+          "expected": {
+            "delivery_probability": 0.8775,
+            "single_feature_accuracy": 0.719375,
+            "both_features_accuracy": 0.5175004,
+            "mean_total_messages": 4.0,
+            "max_total_messages": 4
+          }
+        },
+        "always_three": {
+          "both_features_accuracy": 0.5444,
+          "standard_error": 0.0035216,
+          "mean_total_messages": 6.0,
+          "expected": {
+            "delivery_probability": 0.957125,
+            "single_feature_accuracy": 0.7392813,
+            "both_features_accuracy": 0.5465368,
+            "mean_total_messages": 6.0,
+            "max_total_messages": 6
+          }
+        }
+      },
+      "paired_feedback_minus_matched": {
+        "observed_accuracy_difference": 0.02645,
+        "standard_error": 0.0015174,
+        "ci95_low": 0.0234759,
+        "ci95_high": 0.0294241,
+        "predicted_accuracy_difference": 0.0242576
+      }
+    },
+    {
+      "sensory_noise": 0.25,
+      "data_loss": 0.35,
+      "feedback_loss": 0.2,
+      "seed": 3194,
+      "trials_per_protocol": 20000,
+      "matched_repeat_probability": 0.63,
+      "protocols": {
+        "one_shot": {
+          "both_features_accuracy": 0.43865,
+          "standard_error": 0.0035088,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 0.65,
+            "single_feature_accuracy": 0.6625,
+            "both_features_accuracy": 0.4389062,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 2
+          }
+        },
+        "random_repeat_matched": {
+          "both_features_accuracy": 0.48805,
+          "standard_error": 0.0035345,
+          "mean_total_messages": 3.2648,
+          "expected": {
+            "delivery_probability": 0.793325,
+            "single_feature_accuracy": 0.6983313,
+            "both_features_accuracy": 0.4876665,
+            "mean_total_messages": 3.26,
+            "max_total_messages": 4
+          }
+        },
+        "feedback_unreliable": {
+          "both_features_accuracy": 0.4995,
+          "standard_error": 0.0035355,
+          "mean_total_messages": 3.26375,
+          "expected": {
+            "delivery_probability": 0.832,
+            "single_feature_accuracy": 0.708,
+            "both_features_accuracy": 0.501264,
+            "mean_total_messages": 3.26,
+            "max_total_messages": 6
+          }
+        },
+        "always_two": {
+          "both_features_accuracy": 0.5169,
+          "standard_error": 0.0035335,
+          "mean_total_messages": 4.0,
+          "expected": {
+            "delivery_probability": 0.8775,
+            "single_feature_accuracy": 0.719375,
+            "both_features_accuracy": 0.5175004,
+            "mean_total_messages": 4.0,
+            "max_total_messages": 4
+          }
+        },
+        "always_three": {
+          "both_features_accuracy": 0.54755,
+          "standard_error": 0.0035195,
+          "mean_total_messages": 6.0,
+          "expected": {
+            "delivery_probability": 0.957125,
+            "single_feature_accuracy": 0.7392813,
+            "both_features_accuracy": 0.5465368,
+            "mean_total_messages": 6.0,
+            "max_total_messages": 6
+          }
+        }
+      },
+      "paired_feedback_minus_matched": {        "observed_accuracy_difference": 0.01145,
+        "standard_error": 0.0018141,
+        "ci95_low": 0.0078944,
+        "ci95_high": 0.0150056,
+        "predicted_accuracy_difference": 0.0135975
+      }
+    },
+    {
+      "sensory_noise": 0.25,
+      "data_loss": 0.35,
+      "feedback_loss": 0.6,
+      "seed": 3307,
+      "trials_per_protocol": 20000,
+      "matched_repeat_probability": 0.49,
+      "protocols": {
+        "one_shot": {
+          "both_features_accuracy": 0.43835,
+          "standard_error": 0.0035086,
+          "mean_total_messages": 2.0,
+          "expected": {
+            "delivery_probability": 0.65,
+            "single_feature_accuracy": 0.6625,
+            "both_features_accuracy": 0.4389062,
+            "mean_total_messages": 2.0,
+            "max_total_messages": 2
+          }
+        },
+        "random_repeat_matched": {
+          "both_features_accuracy": 0.4751,
+          "standard_error": 0.0035311,
+          "mean_total_messages": 2.9879,
+          "expected": {
+            "delivery_probability": 0.761475,
+            "single_feature_accuracy": 0.6903687,
+            "both_features_accuracy": 0.476609,
+            "mean_total_messages": 2.98,
+            "max_total_messages": 4
+          }
+        },
+        "feedback_unreliable": {
+          "both_features_accuracy": 0.4666,
+          "standard_error": 0.0035276,
+          "mean_total_messages": 2.9729,
+          "expected": {
+            "delivery_probability": 0.741,
+            "single_feature_accuracy": 0.68525,
+            "both_features_accuracy": 0.4695676,
+            "mean_total_messages": 2.98,
+            "max_total_messages": 6
+          }
+        },
+        "always_two": {
+          "both_features_accuracy": 0.51565,
+          "standard_error": 0.0035338,
+          "mean_total_messages": 4.0,
+          "expected": {
+            "delivery_probability": 0.8775,
+            "single_feature_accuracy": 0.719375,
+            "both_features_accuracy": 0.5175004,
+            "mean_total_messages": 4.0,
+            "max_total_messages": 4
+          }
+        },
+        "always_three": {
+          "both_features_accuracy": 0.5441,
+          "standard_error": 0.0035218,
+          "mean_total_messages": 6.0,
+          "expected": {
+            "delivery_probability": 0.957125,
+            "single_feature_accuracy": 0.7392813,
+            "both_features_accuracy": 0.5465368,
+            "mean_total_messages": 6.0,
+            "max_total_messages": 6
+          }
+        }
+      },
+      "paired_feedback_minus_matched": {
+        "observed_accuracy_difference": -0.0085,
+        "standard_error": 0.0019394,
+        "ci95_low": -0.0123013,
+        "ci95_high": -0.0046987,
+        "predicted_accuracy_difference": -0.0070414
+      }
+    }
+  ],
+  "trials_per_condition_per_protocol": 20000,
+  "total_episode_protocol_evaluations": 2700000,
+  "intervention": {
+    "intervention": "do(feedback_loss=0) vs do(feedback_loss=treatment_loss)",
+    "shared_exogenous_randomness": true,
+    "trials": 60000,
+    "sensory_noise": 0.1,
+    "data_loss": 0.35,
+    "control_feedback_loss": 0.0,
+    "treatment_feedback_loss": 0.6,
+    "no_loss_accuracy": 0.7241167,
+    "loss_accuracy": 0.6344167,
+    "no_loss_messages": 3.3929333,
+    "loss_messages": 2.97405,
+    "observed_causal_accuracy_effect": 0.0897,
+    "predicted_causal_accuracy_effect": 0.089948,
+    "effect_standard_error": 0.0013165,
+    "effect_ci95": [
+      0.0871197,
+      0.0922803
+    ]
+  },
+  "limitations": [
+    "Equal *expected* total messages, not equal worst-case slots, latency, energy per packet or data/control composition.",
+    "The feedback receiver perfectly detects each initial erasure and sends a NACK only on loss.",
+    "NACK delivery is unreliable, while the initial data and retry erasures are independent.",
+    "A single sensory observation is reused on repetitions; transmission repetition cannot repair sensory noise.",
+    "The feedforward random-repeat schedule is not allowed to inspect erasure events.",
+    "The two feature bits are independent; missing observations are replaced by fair random guesses.",
+    "These are information-theoretic toy protocols, not biological recurrent systems, IIT \u03a6, GNWT or consciousness tests."
+  ]
+}

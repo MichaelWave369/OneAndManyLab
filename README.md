@@ -6,10 +6,26 @@ Live React dashboard: **https://michaelwave369.github.io/OneAndManyLab/**
 
 > **Scope:** Models of information processing, not measurements of subjective consciousness or evidence for ancient cosmologies. No IIT Φ is calculated.
 
+## Part IX: unreliable feedback with matched expected communication costs
+
+The newest live dashboard tab **Part IX · Feedback** examines five packet-transfer strategies across 27 conditions (2.7 million synthetic strategy-evaluations). It controls for the *mean* number of messages between feedback retry and blind repetition, introduces an unreliable NACK channel, and includes a paired causal intervention. **17 Python tests** now run in CI.
+
+At 10% sensory noise and 35% data loss, feedback-minus-blind-repeat accuracy varies from **+4.40 percentage points** with perfect NACK delivery to **-1.37 points** with 60% NACK loss. This is a formal toy-system result, *not* a finding about consciousness or brains.
+
+- [Part IX full report](research/PART_IX_REPORT.md)
+- [Part IX Python simulation](research/budgeted_feedback.py)
+- [Part IX seeded JSON](public/data/part9.json) and [CSV](public/data/part9.csv)
+
+Reproduce it with:
+
+```bash
+python research/budgeted_feedback.py --trials 20000 --seed 369 --output public/data/part9.json --csv public/data/part9.csv
+```
+
 ## What's inside
 
 - **React/Vite web app**: real dataset-backed binding comparisons, causal-control visualizations, linked evidence, responsive dark research UI.
-- **`research/`**: original Part VII and VIII reproducible Python simulations and eight unit tests, plus a standalone archived offline dashboard.
+- **`research/`**: original Part VII and VIII reproducible Python simulations and 17 unit tests, plus a standalone archived offline dashboard.
 - **`public/data/`**: seeded experimental results as JSON and CSV, served unmodified by GitHub Pages.
 - **`.github/workflows/pages.yml`**: tests both experiments, compiles React with Vite, deploys with GitHub Pages Actions.
 
@@ -34,7 +50,7 @@ npm run dev
 npm run build
 ```
 
-The deployed app loads the committed datasets under `public/data`. It does **not** run new simulations inside the browser. Controls select among nine previously simulated conditions. Python produces fresh datasets when run separately.
+The deployed app loads the committed datasets under `public/data`. It does **not** run new simulations inside the browser. Controls select among previously simulated conditions (nine in Part VIII; 27 in Part IX). Python produces fresh datasets when run separately.
 
 ## Core observations
 
