@@ -30,6 +30,11 @@ jobs:
         run: npm install --no-audit --no-fund
       - name: Build React site
         run: npm run build
+      - name: Assert built site has React mount and hashed bundle
+        run: |
+          test -s dist/index.html
+          grep -q 'id="root"' dist/index.html
+          grep -q 'assets/index-' dist/index.html
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload Pages artifact
