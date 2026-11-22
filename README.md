@@ -6,6 +6,10 @@ Live React dashboard: **https://michaelwave369.github.io/OneAndManyLab/**
 
 > **Scope:** Models of information processing, not measurements of subjective consciousness or evidence for ancient cosmologies. No IIT Φ is calculated.
 
+## Part X: correlated failures, deadlines, and resource accounting
+
+Part X adds a five-strategy controlled study of **sticky burst losses, missed NACKs, false detection alarms, deadlines, and energy budgets** across **48 conditions**. It records 2.88M protocol evaluations, compares feedback with blind repetition matched separately by expected messages or expected energy, and adds 16 automated Python tests (33 total). The React site now includes a Part X Bursts lab; see [`research/PART_X_REPORT.md`](research/PART_X_REPORT.md) and [`research/bursty_feedback.py`](research/bursty_feedback.py). Run: `python research/bursty_feedback.py --trials 12000 --seed 369 --output public/data/part10.json`.
+
 ## Part IX: unreliable feedback with matched expected communication costs
 
 The newest live dashboard tab **Part IX · Feedback** examines five packet-transfer strategies across 27 conditions (2.7 million synthetic strategy-evaluations). It controls for the *mean* number of messages between feedback retry and blind repetition, introduces an unreliable NACK channel, and includes a paired causal intervention. **17 Python tests** now run in CI.

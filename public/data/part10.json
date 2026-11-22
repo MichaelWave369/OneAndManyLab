@@ -1,0 +1,4683 @@
+{
+  "experiment": "Part X: correlated failures, imperfect detection and deadline budgets",
+  "seed": 369,
+  "model_version": "1.0",
+  "trials_per_strategy_per_condition": 12000,
+  "protocol_evaluations": 2880000,
+  "conditions": [
+    {
+      "noise": 0.1,
+      "erasure": 0.15,
+      "burst_correlation": 0.0,
+      "detection_sensitivity": 0.55,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.05,
+      "deadline": 2.5,
+      "seed": 369,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.7018333,
+          "accuracy_standard_error": 0.004176,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.7260833,
+          "accuracy_standard_error": 0.0040711,
+          "messages": 2.5865833,
+          "energy": 2.5865833,
+          "mean_channel_time": 1.2932917,
+          "predicted": {
+            "delivery_by_deadline": 0.88741806,
+            "single_feature_accuracy": 0.85496722,
+            "both_features_accuracy": 0.73096896,
+            "mean_total_messages": 2.58695,
+            "mean_total_energy": 2.58695,
+            "mean_per_feature_channel_time": 1.293475
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.71825,
+          "accuracy_standard_error": 0.0041066,
+          "messages": 2.3455,
+          "energy": 2.3455,
+          "mean_channel_time": 1.17275,
+          "predicted": {
+            "delivery_by_deadline": 0.87206706,
+            "single_feature_accuracy": 0.84882682,
+            "both_features_accuracy": 0.72050698,
+            "mean_total_messages": 2.34615,
+            "mean_total_energy": 2.34615,
+            "mean_per_feature_channel_time": 1.173075
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.7018333,
+          "accuracy_standard_error": 0.004176,
+          "messages": 2.5985,
+          "energy": 2.3536333,
+          "mean_channel_time": 1.3604667,
+          "predicted": {
+            "delivery_by_deadline": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2.58695,
+            "mean_total_energy": 2.34615,
+            "mean_per_feature_channel_time": 1.353675
+          }
+        },
+        "always_two": {
+          "accuracy": 0.7940833,
+          "accuracy_standard_error": 0.0036914,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.9775,
+            "single_feature_accuracy": 0.891,
+            "both_features_accuracy": 0.793881,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": -0.02425,
+        "se": 0.0016115,
+        "ci95": [
+          -0.0274085,
+          -0.0210915
+        ],
+        "predicted_difference": -0.025369
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.15,
+      "burst_correlation": 0.0,
+      "detection_sensitivity": 0.55,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.05,
+      "deadline": 4.0,
+      "seed": 542,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.7045,
+          "accuracy_standard_error": 0.0041651,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.7301667,
+          "accuracy_standard_error": 0.004052,
+          "messages": 2.588,
+          "energy": 2.588,
+          "mean_channel_time": 1.294,
+          "predicted": {
+            "delivery_by_deadline": 0.88741806,
+            "single_feature_accuracy": 0.85496722,
+            "both_features_accuracy": 0.73096896,
+            "mean_total_messages": 2.58695,
+            "mean_total_energy": 2.58695,
+            "mean_per_feature_channel_time": 1.293475
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.7210833,
+          "accuracy_standard_error": 0.0040939,
+          "messages": 2.3523333,
+          "energy": 2.3523333,
+          "mean_channel_time": 1.1761667,
+          "predicted": {
+            "delivery_by_deadline": 0.87206706,
+            "single_feature_accuracy": 0.84882682,
+            "both_features_accuracy": 0.72050698,
+            "mean_total_messages": 2.34615,
+            "mean_total_energy": 2.34615,
+            "mean_per_feature_channel_time": 1.173075
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.7509167,
+          "accuracy_standard_error": 0.003948,
+          "messages": 2.5881667,
+          "energy": 2.3465667,
+          "mean_channel_time": 1.3544833,
+          "predicted": {
+            "delivery_by_deadline": 0.91661875,
+            "single_feature_accuracy": 0.8666475,
+            "both_features_accuracy": 0.75107789,
+            "mean_total_messages": 2.58695,
+            "mean_total_energy": 2.34615,
+            "mean_per_feature_channel_time": 1.353675
+          }
+        },
+        "always_two": {
+          "accuracy": 0.79425,
+          "accuracy_standard_error": 0.0036903,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.9775,
+            "single_feature_accuracy": 0.891,
+            "both_features_accuracy": 0.793881,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": 0.02075,
+        "se": 0.0021374,
+        "ci95": [
+          0.0165608,
+          0.0249392
+        ],
+        "predicted_difference": 0.0201089
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.15,
+      "burst_correlation": 0.0,
+      "detection_sensitivity": 0.55,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.4,
+      "deadline": 2.5,
+      "seed": 715,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.7125833,
+          "accuracy_standard_error": 0.0041313,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.733,
+          "accuracy_standard_error": 0.0040385,
+          "messages": 2.4780833,
+          "energy": 2.4780833,
+          "mean_channel_time": 1.2390417,
+          "predicted": {
+            "delivery_by_deadline": 0.880702,
+            "single_feature_accuracy": 0.8522808,
+            "both_features_accuracy": 0.72638256,
+            "mean_total_messages": 2.4816,
+            "mean_total_energy": 2.4816,
+            "mean_per_feature_channel_time": 1.2408
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.7235,
+          "accuracy_standard_error": 0.004083,
+          "messages": 2.23975,
+          "energy": 2.23975,
+          "mean_channel_time": 1.119875,
+          "predicted": {
+            "delivery_by_deadline": 0.865351,
+            "single_feature_accuracy": 0.8461404,
+            "both_features_accuracy": 0.71595358,
+            "mean_total_messages": 2.2408,
+            "mean_total_energy": 2.2408,
+            "mean_per_feature_channel_time": 1.1204
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.7125833,
+          "accuracy_standard_error": 0.0041313,
+          "messages": 2.4739167,
+          "energy": 2.2365833,
+          "mean_channel_time": 1.2962917,
+          "predicted": {
+            "delivery_by_deadline": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2.4816,
+            "mean_total_energy": 2.2408,
+            "mean_per_feature_channel_time": 1.301
+          }
+        },
+        "always_two": {
+          "accuracy": 0.7993333,
+          "accuracy_standard_error": 0.003656,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.9775,
+            "single_feature_accuracy": 0.891,
+            "both_features_accuracy": 0.793881,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": -0.0204167,
+        "se": 0.0014142,
+        "ci95": [
+          -0.0231885,
+          -0.0176448
+        ],
+        "predicted_difference": -0.0207826
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.15,
+      "burst_correlation": 0.0,
+      "detection_sensitivity": 0.55,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.4,
+      "deadline": 4.0,
+      "seed": 888,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.70475,
+          "accuracy_standard_error": 0.0041641,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.7261667,
+          "accuracy_standard_error": 0.0040707,
+          "messages": 2.4831667,
+          "energy": 2.4831667,
+          "mean_channel_time": 1.2415833,
+          "predicted": {
+            "delivery_by_deadline": 0.880702,
+            "single_feature_accuracy": 0.8522808,
+            "both_features_accuracy": 0.72638256,
+            "mean_total_messages": 2.4816,
+            "mean_total_energy": 2.4816,
+            "mean_per_feature_channel_time": 1.2408
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.7149167,
+          "accuracy_standard_error": 0.0041212,
+          "messages": 2.2450833,
+          "energy": 2.2450833,
+          "mean_channel_time": 1.1225417,
+          "predicted": {
+            "delivery_by_deadline": 0.865351,
+            "single_feature_accuracy": 0.8461404,
+            "both_features_accuracy": 0.71595358,
+            "mean_total_messages": 2.2408,
+            "mean_total_energy": 2.2408,
+            "mean_per_feature_channel_time": 1.1204
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.73525,
+          "accuracy_standard_error": 0.0040276,
+          "messages": 2.4713333,
+          "energy": 2.2341333,
+          "mean_channel_time": 1.2949667,
+          "predicted": {
+            "delivery_by_deadline": 0.892075,
+            "single_feature_accuracy": 0.85683,
+            "both_features_accuracy": 0.73415765,
+            "mean_total_messages": 2.4816,
+            "mean_total_energy": 2.2408,
+            "mean_per_feature_channel_time": 1.301
+          }
+        },
+        "always_two": {
+          "accuracy": 0.7925,
+          "accuracy_standard_error": 0.0037018,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.9775,
+            "single_feature_accuracy": 0.891,
+            "both_features_accuracy": 0.793881,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": 0.0090833,
+        "se": 0.0019076,
+        "ci95": [
+          0.0053444,
+          0.0128222
+        ],
+        "predicted_difference": 0.0077751
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.15,
+      "burst_correlation": 0.0,
+      "detection_sensitivity": 0.95,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.05,
+      "deadline": 2.5,
+      "seed": 1061,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.7106667,
+          "accuracy_standard_error": 0.0041394,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.7481667,
+          "accuracy_standard_error": 0.0039625,
+          "messages": 2.8174167,
+          "energy": 2.8174167,
+          "mean_channel_time": 1.4087083,
+          "predicted": {
+            "delivery_by_deadline": 0.90233556,
+            "single_feature_accuracy": 0.86093423,
+            "both_features_accuracy": 0.74120774,
+            "mean_total_messages": 2.82095,
+            "mean_total_energy": 2.82095,
+            "mean_per_feature_channel_time": 1.410475
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.7334167,
+          "accuracy_standard_error": 0.0040365,
+          "messages": 2.48375,
+          "energy": 2.48375,
+          "mean_channel_time": 1.241875,
+          "predicted": {
+            "delivery_by_deadline": 0.88086456,
+            "single_feature_accuracy": 0.85234583,
+            "both_features_accuracy": 0.72649341,
+            "mean_total_messages": 2.48415,
+            "mean_total_energy": 2.48415,
+            "mean_per_feature_channel_time": 1.242075
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.7106667,
+          "accuracy_standard_error": 0.0041394,
+          "messages": 2.8283333,
+          "energy": 2.4880667,
+          "mean_channel_time": 1.4992333,
+          "predicted": {
+            "delivery_by_deadline": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2.82095,
+            "mean_total_energy": 2.48415,
+            "mean_per_feature_channel_time": 1.494675
+          }
+        },
+        "always_two": {
+          "accuracy": 0.8003333,
+          "accuracy_standard_error": 0.0036492,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.9775,
+            "single_feature_accuracy": 0.891,
+            "both_features_accuracy": 0.793881,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": -0.0375,
+        "se": 0.0019775,
+        "ci95": [
+          -0.0413759,
+          -0.0336241
+        ],
+        "predicted_difference": -0.0356077
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.15,
+      "burst_correlation": 0.0,
+      "detection_sensitivity": 0.95,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.05,
+      "deadline": 4.0,
+      "seed": 1234,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.7009167,
+          "accuracy_standard_error": 0.0041796,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.7395833,
+          "accuracy_standard_error": 0.0040062,
+          "messages": 2.8174167,
+          "energy": 2.8174167,
+          "mean_channel_time": 1.4087083,
+          "predicted": {
+            "delivery_by_deadline": 0.90233556,
+            "single_feature_accuracy": 0.86093423,
+            "both_features_accuracy": 0.74120774,
+            "mean_total_messages": 2.82095,
+            "mean_total_energy": 2.82095,
+            "mean_per_feature_channel_time": 1.410475
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.7228333,
+          "accuracy_standard_error": 0.004086,
+          "messages": 2.4869167,
+          "energy": 2.4869167,
+          "mean_channel_time": 1.2434583,
+          "predicted": {
+            "delivery_by_deadline": 0.88086456,
+            "single_feature_accuracy": 0.85234583,
+            "both_features_accuracy": 0.72649341,
+            "mean_total_messages": 2.48415,
+            "mean_total_energy": 2.48415,
+            "mean_per_feature_channel_time": 1.242075
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.7854167,
+          "accuracy_standard_error": 0.0037476,
+          "messages": 2.8226667,
+          "energy": 2.4849333,
+          "mean_channel_time": 1.4957667,
+          "predicted": {
+            "delivery_by_deadline": 0.96506875,
+            "single_feature_accuracy": 0.8860275,
+            "both_features_accuracy": 0.78504473,
+            "mean_total_messages": 2.82095,
+            "mean_total_energy": 2.48415,
+            "mean_per_feature_channel_time": 1.494675
+          }
+        },
+        "always_two": {
+          "accuracy": 0.7944167,
+          "accuracy_standard_error": 0.0036892,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.9775,
+            "single_feature_accuracy": 0.891,
+            "both_features_accuracy": 0.793881,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": 0.0458333,
+        "se": 0.0022589,
+        "ci95": [
+          0.0414058,
+          0.0502608
+        ],
+        "predicted_difference": 0.043837
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.15,
+      "burst_correlation": 0.0,
+      "detection_sensitivity": 0.95,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.4,
+      "deadline": 2.5,
+      "seed": 1407,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.708,
+          "accuracy_standard_error": 0.0041507,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.7361667,
+          "accuracy_standard_error": 0.0040231,
+          "messages": 2.6663333,
+          "energy": 2.6663333,
+          "mean_channel_time": 1.3331667,
+          "predicted": {
+            "delivery_by_deadline": 0.892942,
+            "single_feature_accuracy": 0.8571768,
+            "both_features_accuracy": 0.73475207,
+            "mean_total_messages": 2.6736,
+            "mean_total_energy": 2.6736,
+            "mean_per_feature_channel_time": 1.3368
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.7224167,
+          "accuracy_standard_error": 0.0040879,
+          "messages": 2.3319167,
+          "energy": 2.3319167,
+          "mean_channel_time": 1.1659583,
+          "predicted": {
+            "delivery_by_deadline": 0.871471,
+            "single_feature_accuracy": 0.8485884,
+            "both_features_accuracy": 0.72010227,
+            "mean_total_messages": 2.3368,
+            "mean_total_energy": 2.3368,
+            "mean_per_feature_channel_time": 1.1684
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.708,
+          "accuracy_standard_error": 0.0041507,
+          "messages": 2.68225,
+          "energy": 2.34365,
+          "mean_channel_time": 1.425775,
+          "predicted": {
+            "delivery_by_deadline": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2.6736,
+            "mean_total_energy": 2.3368,
+            "mean_per_feature_channel_time": 1.421
+          }
+        },
+        "always_two": {
+          "accuracy": 0.796,
+          "accuracy_standard_error": 0.0036786,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.9775,
+            "single_feature_accuracy": 0.891,
+            "both_features_accuracy": 0.793881,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": -0.0281667,
+        "se": 0.001729,
+        "ci95": [
+          -0.0315555,
+          -0.0247778
+        ],
+        "predicted_difference": -0.0291521
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.15,
+      "burst_correlation": 0.0,
+      "detection_sensitivity": 0.95,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.4,
+      "deadline": 4.0,
+      "seed": 1580,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.694,
+          "accuracy_standard_error": 0.0042068,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.7258333,
+          "accuracy_standard_error": 0.0040723,
+          "messages": 2.67275,
+          "energy": 2.67275,
+          "mean_channel_time": 1.336375,
+          "predicted": {
+            "delivery_by_deadline": 0.892942,
+            "single_feature_accuracy": 0.8571768,
+            "both_features_accuracy": 0.73475207,
+            "mean_total_messages": 2.6736,
+            "mean_total_energy": 2.6736,
+            "mean_per_feature_channel_time": 1.3368
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.71075,
+          "accuracy_standard_error": 0.0041391,
+          "messages": 2.337,
+          "energy": 2.337,
+          "mean_channel_time": 1.1685,
+          "predicted": {
+            "delivery_by_deadline": 0.871471,
+            "single_feature_accuracy": 0.8485884,
+            "both_features_accuracy": 0.72010227,
+            "mean_total_messages": 2.3368,
+            "mean_total_energy": 2.3368,
+            "mean_per_feature_channel_time": 1.1684
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.7444167,
+          "accuracy_standard_error": 0.0039818,
+          "messages": 2.6758333,
+          "energy": 2.3365,
+          "mean_channel_time": 1.42275,
+          "predicted": {
+            "delivery_by_deadline": 0.922675,
+            "single_feature_accuracy": 0.86907,
+            "both_features_accuracy": 0.75528266,
+            "mean_total_messages": 2.6736,
+            "mean_total_energy": 2.3368,
+            "mean_per_feature_channel_time": 1.421
+          }
+        },
+        "always_two": {
+          "accuracy": 0.7849167,
+          "accuracy_standard_error": 0.0037508,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.9775,
+            "single_feature_accuracy": 0.891,
+            "both_features_accuracy": 0.793881,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": 0.0185833,
+        "se": 0.0021903,
+        "ci95": [
+          0.0142903,
+          0.0228764
+        ],
+        "predicted_difference": 0.0205306
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.15,
+      "burst_correlation": 0.45,
+      "detection_sensitivity": 0.55,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.05,
+      "deadline": 2.5,
+      "seed": 1753,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.7065,
+          "accuracy_standard_error": 0.0041569,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.7190833,
+          "accuracy_standard_error": 0.0041029,
+          "messages": 2.588,
+          "energy": 2.588,
+          "mean_channel_time": 1.294,
+          "predicted": {
+            "delivery_by_deadline": 0.87057993,
+            "single_feature_accuracy": 0.84823197,
+            "both_features_accuracy": 0.71949748,
+            "mean_total_messages": 2.58695,
+            "mean_total_energy": 2.58695,
+            "mean_per_feature_channel_time": 1.293475
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.7138333,
+          "accuracy_standard_error": 0.0041259,
+          "messages": 2.3443333,
+          "energy": 2.3443333,
+          "mean_channel_time": 1.1721667,
+          "predicted": {
+            "delivery_by_deadline": 0.86213688,
+            "single_feature_accuracy": 0.84485475,
+            "both_features_accuracy": 0.71377955,
+            "mean_total_messages": 2.34615,
+            "mean_total_energy": 2.34615,
+            "mean_per_feature_channel_time": 1.173075
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.7065,
+          "accuracy_standard_error": 0.0041569,
+          "messages": 2.59625,
+          "energy": 2.35245,
+          "mean_channel_time": 1.359075,
+          "predicted": {
+            "delivery_by_deadline": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2.58695,
+            "mean_total_energy": 2.34615,
+            "mean_per_feature_channel_time": 1.353675
+          }
+        },
+        "always_two": {
+          "accuracy": 0.7499167,
+          "accuracy_standard_error": 0.0039533,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.920125,
+            "single_feature_accuracy": 0.86805,
+            "both_features_accuracy": 0.7535108,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": -0.0125833,
+        "se": 0.001152,
+        "ci95": [
+          -0.0148412,
+          -0.0103254
+        ],
+        "predicted_difference": -0.0138975
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.15,
+      "burst_correlation": 0.45,
+      "detection_sensitivity": 0.55,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.05,
+      "deadline": 4.0,
+      "seed": 1926,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.7035,
+          "accuracy_standard_error": 0.0041692,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.7178333,
+          "accuracy_standard_error": 0.0041084,
+          "messages": 2.593,
+          "energy": 2.593,
+          "mean_channel_time": 1.2965,
+          "predicted": {
+            "delivery_by_deadline": 0.87057993,
+            "single_feature_accuracy": 0.84823197,
+            "both_features_accuracy": 0.71949748,
+            "mean_total_messages": 2.58695,
+            "mean_total_energy": 2.58695,
+            "mean_per_feature_channel_time": 1.293475
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.71175,
+          "accuracy_standard_error": 0.0041348,
+          "messages": 2.3383333,
+          "energy": 2.3383333,
+          "mean_channel_time": 1.1691667,
+          "predicted": {
+            "delivery_by_deadline": 0.86213688,
+            "single_feature_accuracy": 0.84485475,
+            "both_features_accuracy": 0.71377955,
+            "mean_total_messages": 2.34615,
+            "mean_total_energy": 2.34615,
+            "mean_per_feature_channel_time": 1.173075
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.7294167,
+          "accuracy_standard_error": 0.0040555,
+          "messages": 2.5941667,
+          "energy": 2.3511667,
+          "mean_channel_time": 1.3578333,
+          "predicted": {
+            "delivery_by_deadline": 0.88664031,
+            "single_feature_accuracy": 0.85465612,
+            "both_features_accuracy": 0.73043709,
+            "mean_total_messages": 2.58695,
+            "mean_total_energy": 2.34615,
+            "mean_per_feature_channel_time": 1.353675
+          }
+        },
+        "always_two": {
+          "accuracy": 0.7519167,
+          "accuracy_standard_error": 0.0039427,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.920125,
+            "single_feature_accuracy": 0.86805,
+            "both_features_accuracy": 0.7535108,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": 0.0115833,
+        "se": 0.0016486,
+        "ci95": [
+          0.008352,
+          0.0148147
+        ],
+        "predicted_difference": 0.0109396
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.15,
+      "burst_correlation": 0.45,
+      "detection_sensitivity": 0.55,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.4,
+      "deadline": 2.5,
+      "seed": 2099,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.704,
+          "accuracy_standard_error": 0.0041672,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.71475,
+          "accuracy_standard_error": 0.0041219,
+          "messages": 2.4891667,
+          "energy": 2.4891667,
+          "mean_channel_time": 1.2445833,
+          "predicted": {
+            "delivery_by_deadline": 0.8668861,
+            "single_feature_accuracy": 0.84675444,
+            "both_features_accuracy": 0.71699308,
+            "mean_total_messages": 2.4816,
+            "mean_total_energy": 2.4816,
+            "mean_per_feature_channel_time": 1.2408
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.7093333,
+          "accuracy_standard_error": 0.0041451,
+          "messages": 2.2379167,
+          "energy": 2.2379167,
+          "mean_channel_time": 1.1189583,
+          "predicted": {
+            "delivery_by_deadline": 0.85844305,
+            "single_feature_accuracy": 0.84337722,
+            "both_features_accuracy": 0.71128514,
+            "mean_total_messages": 2.2408,
+            "mean_total_energy": 2.2408,
+            "mean_per_feature_channel_time": 1.1204
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.704,
+          "accuracy_standard_error": 0.0041672,
+          "messages": 2.48825,
+          "energy": 2.24445,
+          "mean_channel_time": 1.305075,
+          "predicted": {
+            "delivery_by_deadline": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2.4816,
+            "mean_total_energy": 2.2408,
+            "mean_per_feature_channel_time": 1.301
+          }
+        },
+        "always_two": {
+          "accuracy": 0.7521667,
+          "accuracy_standard_error": 0.0039414,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.920125,
+            "single_feature_accuracy": 0.86805,
+            "both_features_accuracy": 0.7535108,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": -0.01075,
+        "se": 0.0010395,
+        "ci95": [
+          -0.0127875,
+          -0.0087125
+        ],
+        "predicted_difference": -0.0113931
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.15,
+      "burst_correlation": 0.45,
+      "detection_sensitivity": 0.55,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.4,
+      "deadline": 4.0,
+      "seed": 2272,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.7071667,
+          "accuracy_standard_error": 0.0041541,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.7186667,
+          "accuracy_standard_error": 0.0041047,
+          "messages": 2.4925833,
+          "energy": 2.4925833,
+          "mean_channel_time": 1.2462917,
+          "predicted": {
+            "delivery_by_deadline": 0.8668861,
+            "single_feature_accuracy": 0.84675444,
+            "both_features_accuracy": 0.71699308,
+            "mean_total_messages": 2.4816,
+            "mean_total_energy": 2.4816,
+            "mean_per_feature_channel_time": 1.2408
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.7125833,
+          "accuracy_standard_error": 0.0041313,
+          "messages": 2.2451667,
+          "energy": 2.2451667,
+          "mean_channel_time": 1.1225833,
+          "predicted": {
+            "delivery_by_deadline": 0.85844305,
+            "single_feature_accuracy": 0.84337722,
+            "both_features_accuracy": 0.71128514,
+            "mean_total_messages": 2.2408,
+            "mean_total_energy": 2.2408,
+            "mean_per_feature_channel_time": 1.1204
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.7228333,
+          "accuracy_standard_error": 0.004086,
+          "messages": 2.4848333,
+          "energy": 2.2403667,
+          "mean_channel_time": 1.3035333,
+          "predicted": {
+            "delivery_by_deadline": 0.87314125,
+            "single_feature_accuracy": 0.8492565,
+            "both_features_accuracy": 0.7212366,
+            "mean_total_messages": 2.4816,
+            "mean_total_energy": 2.2408,
+            "mean_per_feature_channel_time": 1.301
+          }
+        },
+        "always_two": {
+          "accuracy": 0.75275,
+          "accuracy_standard_error": 0.0039382,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.920125,
+            "single_feature_accuracy": 0.86805,
+            "both_features_accuracy": 0.7535108,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": 0.0041667,
+        "se": 0.0013889,
+        "ci95": [
+          0.0014444,
+          0.006889
+        ],
+        "predicted_difference": 0.0042435
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.15,
+      "burst_correlation": 0.45,
+      "detection_sensitivity": 0.95,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.05,
+      "deadline": 2.5,
+      "seed": 2445,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.70625,
+          "accuracy_standard_error": 0.0041579,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.72575,
+          "accuracy_standard_error": 0.0040726,
+          "messages": 2.8299167,
+          "energy": 2.8299167,
+          "mean_channel_time": 1.4149583,
+          "predicted": {
+            "delivery_by_deadline": 0.87878456,
+            "single_feature_accuracy": 0.85151382,
+            "both_features_accuracy": 0.72507579,
+            "mean_total_messages": 2.82095,
+            "mean_total_energy": 2.82095,
+            "mean_per_feature_channel_time": 1.410475
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.7165833,
+          "accuracy_standard_error": 0.0041139,
+          "messages": 2.4798333,
+          "energy": 2.4798333,
+          "mean_channel_time": 1.2399167,
+          "predicted": {
+            "delivery_by_deadline": 0.86697551,
+            "single_feature_accuracy": 0.8467902,
+            "both_features_accuracy": 0.71705365,
+            "mean_total_messages": 2.48415,
+            "mean_total_energy": 2.48415,
+            "mean_per_feature_channel_time": 1.242075
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.70625,
+          "accuracy_standard_error": 0.0041579,
+          "messages": 2.8323333,
+          "energy": 2.4898667,
+          "mean_channel_time": 1.5017833,
+          "predicted": {
+            "delivery_by_deadline": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2.82095,
+            "mean_total_energy": 2.48415,
+            "mean_per_feature_channel_time": 1.494675
+          }
+        },
+        "always_two": {
+          "accuracy": 0.7541667,
+          "accuracy_standard_error": 0.0039306,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.920125,
+            "single_feature_accuracy": 0.86805,
+            "both_features_accuracy": 0.7535108,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": -0.0195,
+        "se": 0.001442,
+        "ci95": [
+          -0.0223264,
+          -0.0166736
+        ],
+        "predicted_difference": -0.0194758
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.15,
+      "burst_correlation": 0.45,
+      "detection_sensitivity": 0.95,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.05,
+      "deadline": 4.0,
+      "seed": 2618,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.7020833,
+          "accuracy_standard_error": 0.0041749,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.7206667,
+          "accuracy_standard_error": 0.0040958,
+          "messages": 2.8190833,
+          "energy": 2.8190833,
+          "mean_channel_time": 1.4095417,
+          "predicted": {
+            "delivery_by_deadline": 0.87878456,
+            "single_feature_accuracy": 0.85151382,
+            "both_features_accuracy": 0.72507579,
+            "mean_total_messages": 2.82095,
+            "mean_total_energy": 2.82095,
+            "mean_per_feature_channel_time": 1.410475
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.7130833,
+          "accuracy_standard_error": 0.0041291,
+          "messages": 2.4854167,
+          "energy": 2.4854167,
+          "mean_channel_time": 1.2427083,
+          "predicted": {
+            "delivery_by_deadline": 0.86697551,
+            "single_feature_accuracy": 0.8467902,
+            "both_features_accuracy": 0.71705365,
+            "mean_total_messages": 2.48415,
+            "mean_total_energy": 2.48415,
+            "mean_per_feature_channel_time": 1.242075
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.7458333,
+          "accuracy_standard_error": 0.0039746,
+          "messages": 2.8065833,
+          "energy": 2.4753167,
+          "mean_channel_time": 1.4861083,
+          "predicted": {
+            "delivery_by_deadline": 0.91328781,
+            "single_feature_accuracy": 0.86531512,
+            "both_features_accuracy": 0.74877027,
+            "mean_total_messages": 2.82095,
+            "mean_total_energy": 2.48415,
+            "mean_per_feature_channel_time": 1.494675
+          }
+        },
+        "always_two": {
+          "accuracy": 0.751,
+          "accuracy_standard_error": 0.0039476,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.920125,
+            "single_feature_accuracy": 0.86805,
+            "both_features_accuracy": 0.7535108,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": 0.0251667,
+        "se": 0.0017408,
+        "ci95": [
+          0.0217546,
+          0.0285787
+        ],
+        "predicted_difference": 0.0236945
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.15,
+      "burst_correlation": 0.45,
+      "detection_sensitivity": 0.95,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.4,
+      "deadline": 2.5,
+      "seed": 2791,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.69775,
+          "accuracy_standard_error": 0.0041922,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.7139167,
+          "accuracy_standard_error": 0.0041255,
+          "messages": 2.66875,
+          "energy": 2.66875,
+          "mean_channel_time": 1.334375,
+          "predicted": {
+            "delivery_by_deadline": 0.8736181,
+            "single_feature_accuracy": 0.84944724,
+            "both_features_accuracy": 0.72156061,
+            "mean_total_messages": 2.6736,
+            "mean_total_energy": 2.6736,
+            "mean_per_feature_channel_time": 1.3368
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.7041667,
+          "accuracy_standard_error": 0.0041665,
+          "messages": 2.341,
+          "energy": 2.341,
+          "mean_channel_time": 1.1705,
+          "predicted": {
+            "delivery_by_deadline": 0.86180905,
+            "single_feature_accuracy": 0.84472362,
+            "both_features_accuracy": 0.71355799,
+            "mean_total_messages": 2.3368,
+            "mean_total_energy": 2.3368,
+            "mean_per_feature_channel_time": 1.1684
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.69775,
+          "accuracy_standard_error": 0.0041922,
+          "messages": 2.679,
+          "energy": 2.341,
+          "mean_channel_time": 1.424,
+          "predicted": {
+            "delivery_by_deadline": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2.6736,
+            "mean_total_energy": 2.3368,
+            "mean_per_feature_channel_time": 1.421
+          }
+        },
+        "always_two": {
+          "accuracy": 0.7455833,
+          "accuracy_standard_error": 0.0039759,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.920125,
+            "single_feature_accuracy": 0.86805,
+            "both_features_accuracy": 0.7535108,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": -0.0161667,
+        "se": 0.0013199,
+        "ci95": [
+          -0.0187537,
+          -0.0135797
+        ],
+        "predicted_difference": -0.0159606
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.15,
+      "burst_correlation": 0.45,
+      "detection_sensitivity": 0.95,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.4,
+      "deadline": 4.0,
+      "seed": 2964,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.7024167,
+          "accuracy_standard_error": 0.0041736,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.7183333,
+          "accuracy_standard_error": 0.0041062,
+          "messages": 2.6668333,
+          "energy": 2.6668333,
+          "mean_channel_time": 1.3334167,
+          "predicted": {
+            "delivery_by_deadline": 0.8736181,
+            "single_feature_accuracy": 0.84944724,
+            "both_features_accuracy": 0.72156061,
+            "mean_total_messages": 2.6736,
+            "mean_total_energy": 2.6736,
+            "mean_per_feature_channel_time": 1.3368
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.7109167,
+          "accuracy_standard_error": 0.0041384,
+          "messages": 2.3281667,
+          "energy": 2.3281667,
+          "mean_channel_time": 1.1640833,
+          "predicted": {
+            "delivery_by_deadline": 0.86180905,
+            "single_feature_accuracy": 0.84472362,
+            "both_features_accuracy": 0.71355799,
+            "mean_total_messages": 2.3368,
+            "mean_total_energy": 2.3368,
+            "mean_per_feature_channel_time": 1.1684
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.7308333,
+          "accuracy_standard_error": 0.0040488,
+          "messages": 2.6691667,
+          "energy": 2.3366333,
+          "mean_channel_time": 1.4177167,
+          "predicted": {
+            "delivery_by_deadline": 0.88997125,
+            "single_feature_accuracy": 0.8559885,
+            "both_features_accuracy": 0.73271631,
+            "mean_total_messages": 2.6736,
+            "mean_total_energy": 2.3368,
+            "mean_per_feature_channel_time": 1.421
+          }
+        },
+        "always_two": {
+          "accuracy": 0.7514167,
+          "accuracy_standard_error": 0.0039454,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.920125,
+            "single_feature_accuracy": 0.86805,
+            "both_features_accuracy": 0.7535108,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": 0.0125,
+        "se": 0.0016586,
+        "ci95": [
+          0.0092492,
+          0.0157508
+        ],
+        "predicted_difference": 0.0111557
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.15,
+      "burst_correlation": 0.85,
+      "detection_sensitivity": 0.55,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.05,
+      "deadline": 2.5,
+      "seed": 3137,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.7038333,
+          "accuracy_standard_error": 0.0041679,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.7075833,
+          "accuracy_standard_error": 0.0041524,
+          "messages": 2.6013333,
+          "energy": 2.6013333,
+          "mean_channel_time": 1.3006667,
+          "predicted": {
+            "delivery_by_deadline": 0.85561271,
+            "single_feature_accuracy": 0.84224508,
+            "both_features_accuracy": 0.70937678,
+            "mean_total_messages": 2.58695,
+            "mean_total_energy": 2.58695,
+            "mean_per_feature_channel_time": 1.293475
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.70625,
+          "accuracy_standard_error": 0.0041579,
+          "messages": 2.35025,
+          "energy": 2.35025,
+          "mean_channel_time": 1.175125,
+          "predicted": {
+            "delivery_by_deadline": 0.85331006,
+            "single_feature_accuracy": 0.84132402,
+            "both_features_accuracy": 0.70782611,
+            "mean_total_messages": 2.34615,
+            "mean_total_energy": 2.34615,
+            "mean_per_feature_channel_time": 1.173075
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.7038333,
+          "accuracy_standard_error": 0.0041679,
+          "messages": 2.5866667,
+          "energy": 2.3464667,
+          "mean_channel_time": 1.3533833,
+          "predicted": {
+            "delivery_by_deadline": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2.58695,
+            "mean_total_energy": 2.34615,
+            "mean_per_feature_channel_time": 1.353675
+          }
+        },
+        "always_two": {
+          "accuracy": 0.7160833,
+          "accuracy_standard_error": 0.0041161,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.869125,
+            "single_feature_accuracy": 0.84765,
+            "both_features_accuracy": 0.71851052,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": -0.00375,
+        "se": 0.0006282,
+        "ci95": [
+          -0.0049813,
+          -0.0025187
+        ],
+        "predicted_difference": -0.0037768
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.15,
+      "burst_correlation": 0.85,
+      "detection_sensitivity": 0.55,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.05,
+      "deadline": 4.0,
+      "seed": 3310,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.70725,
+          "accuracy_standard_error": 0.0041538,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.7108333,
+          "accuracy_standard_error": 0.0041387,
+          "messages": 2.5891667,
+          "energy": 2.5891667,
+          "mean_channel_time": 1.2945833,
+          "predicted": {
+            "delivery_by_deadline": 0.85561271,
+            "single_feature_accuracy": 0.84224508,
+            "both_features_accuracy": 0.70937678,
+            "mean_total_messages": 2.58695,
+            "mean_total_energy": 2.58695,
+            "mean_per_feature_channel_time": 1.293475
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.7095,
+          "accuracy_standard_error": 0.0041444,
+          "messages": 2.3494167,
+          "energy": 2.3494167,
+          "mean_channel_time": 1.1747083,
+          "predicted": {
+            "delivery_by_deadline": 0.85331006,
+            "single_feature_accuracy": 0.84132402,
+            "both_features_accuracy": 0.70782611,
+            "mean_total_messages": 2.34615,
+            "mean_total_energy": 2.34615,
+            "mean_per_feature_channel_time": 1.173075
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.7148333,
+          "accuracy_standard_error": 0.0041216,
+          "messages": 2.60375,
+          "energy": 2.35595,
+          "mean_channel_time": 1.363825,
+          "predicted": {
+            "delivery_by_deadline": 0.85999281,
+            "single_feature_accuracy": 0.84399713,
+            "both_features_accuracy": 0.71233115,
+            "mean_total_messages": 2.58695,
+            "mean_total_energy": 2.34615,
+            "mean_per_feature_channel_time": 1.353675
+          }
+        },
+        "always_two": {
+          "accuracy": 0.7205,
+          "accuracy_standard_error": 0.0040965,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.869125,
+            "single_feature_accuracy": 0.84765,
+            "both_features_accuracy": 0.71851052,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": 0.004,
+        "se": 0.0008157,
+        "ci95": [
+          0.0024013,
+          0.0055987
+        ],
+        "predicted_difference": 0.0029544
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.15,
+      "burst_correlation": 0.85,
+      "detection_sensitivity": 0.55,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.4,
+      "deadline": 2.5,
+      "seed": 3483,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.7049167,
+          "accuracy_standard_error": 0.0041634,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.7071667,
+          "accuracy_standard_error": 0.0041541,
+          "messages": 2.4816667,
+          "energy": 2.4816667,
+          "mean_channel_time": 1.2408333,
+          "predicted": {
+            "delivery_by_deadline": 0.8546053,
+            "single_feature_accuracy": 0.84184212,
+            "both_features_accuracy": 0.70869816,
+            "mean_total_messages": 2.4816,
+            "mean_total_energy": 2.4816,
+            "mean_per_feature_channel_time": 1.2408
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.7058333,
+          "accuracy_standard_error": 0.0041597,
+          "messages": 2.2369167,
+          "energy": 2.2369167,
+          "mean_channel_time": 1.1184583,
+          "predicted": {
+            "delivery_by_deadline": 0.85230265,
+            "single_feature_accuracy": 0.84092106,
+            "both_features_accuracy": 0.70714823,
+            "mean_total_messages": 2.2408,
+            "mean_total_energy": 2.2408,
+            "mean_per_feature_channel_time": 1.1204
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.7049167,
+          "accuracy_standard_error": 0.0041634,
+          "messages": 2.4840833,
+          "energy": 2.2458833,
+          "mean_channel_time": 1.3015917,
+          "predicted": {
+            "delivery_by_deadline": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2.4816,
+            "mean_total_energy": 2.2408,
+            "mean_per_feature_channel_time": 1.301
+          }
+        },
+        "always_two": {
+          "accuracy": 0.717,
+          "accuracy_standard_error": 0.0041121,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.869125,
+            "single_feature_accuracy": 0.84765,
+            "both_features_accuracy": 0.71851052,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": -0.00225,
+        "se": 0.0005461,
+        "ci95": [
+          -0.0033203,
+          -0.0011797
+        ],
+        "predicted_difference": -0.0030982
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.15,
+      "burst_correlation": 0.85,
+      "detection_sensitivity": 0.55,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.4,
+      "deadline": 4.0,
+      "seed": 3656,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.7026667,
+          "accuracy_standard_error": 0.0041726,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.7068333,
+          "accuracy_standard_error": 0.0041555,
+          "messages": 2.4855,
+          "energy": 2.4855,
+          "mean_channel_time": 1.24275,
+          "predicted": {
+            "delivery_by_deadline": 0.8546053,
+            "single_feature_accuracy": 0.84184212,
+            "both_features_accuracy": 0.70869816,
+            "mean_total_messages": 2.4816,
+            "mean_total_energy": 2.4816,
+            "mean_per_feature_channel_time": 1.2408
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.7031667,
+          "accuracy_standard_error": 0.0041706,
+          "messages": 2.2425,
+          "energy": 2.2425,
+          "mean_channel_time": 1.12125,
+          "predicted": {
+            "delivery_by_deadline": 0.85230265,
+            "single_feature_accuracy": 0.84092106,
+            "both_features_accuracy": 0.70714823,
+            "mean_total_messages": 2.2408,
+            "mean_total_energy": 2.2408,
+            "mean_per_feature_channel_time": 1.1204
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.7063333,
+          "accuracy_standard_error": 0.0041576,
+          "messages": 2.491,
+          "energy": 2.2451333,
+          "mean_channel_time": 1.3069667,
+          "predicted": {
+            "delivery_by_deadline": 0.85631125,
+            "single_feature_accuracy": 0.8425245,
+            "both_features_accuracy": 0.70984753,
+            "mean_total_messages": 2.4816,
+            "mean_total_energy": 2.2408,
+            "mean_per_feature_channel_time": 1.301
+          }
+        },
+        "always_two": {
+          "accuracy": 0.7155,
+          "accuracy_standard_error": 0.0041187,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.869125,
+            "single_feature_accuracy": 0.84765,
+            "both_features_accuracy": 0.71851052,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": -0.0005,
+        "se": 0.0007168,
+        "ci95": [
+          -0.001905,
+          0.000905
+        ],
+        "predicted_difference": 0.0011494
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.15,
+      "burst_correlation": 0.85,
+      "detection_sensitivity": 0.95,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.05,
+      "deadline": 2.5,
+      "seed": 3829,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.7070833,
+          "accuracy_standard_error": 0.0041545,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.7110833,
+          "accuracy_standard_error": 0.0041377,
+          "messages": 2.8311667,
+          "energy": 2.8311667,
+          "mean_channel_time": 1.4155833,
+          "predicted": {
+            "delivery_by_deadline": 0.85785033,
+            "single_feature_accuracy": 0.84314013,
+            "both_features_accuracy": 0.71088529,
+            "mean_total_messages": 2.82095,
+            "mean_total_energy": 2.82095,
+            "mean_per_feature_channel_time": 1.410475
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.71025,
+          "accuracy_standard_error": 0.0041412,
+          "messages": 2.4913333,
+          "energy": 2.4913333,
+          "mean_channel_time": 1.2456667,
+          "predicted": {
+            "delivery_by_deadline": 0.85462968,
+            "single_feature_accuracy": 0.84185187,
+            "both_features_accuracy": 0.70871458,
+            "mean_total_messages": 2.48415,
+            "mean_total_energy": 2.48415,
+            "mean_per_feature_channel_time": 1.242075
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.7070833,
+          "accuracy_standard_error": 0.0041545,
+          "messages": 2.8091667,
+          "energy": 2.4771,
+          "mean_channel_time": 1.4876,
+          "predicted": {
+            "delivery_by_deadline": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2.82095,
+            "mean_total_energy": 2.48415,
+            "mean_per_feature_channel_time": 1.494675
+          }
+        },
+        "always_two": {
+          "accuracy": 0.7196667,
+          "accuracy_standard_error": 0.0041003,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.869125,
+            "single_feature_accuracy": 0.84765,
+            "both_features_accuracy": 0.71851052,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": -0.004,
+        "se": 0.0007062,
+        "ci95": [
+          -0.0053841,
+          -0.0026159
+        ],
+        "predicted_difference": -0.0052853
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.15,
+      "burst_correlation": 0.85,
+      "detection_sensitivity": 0.95,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.05,
+      "deadline": 4.0,
+      "seed": 4002,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.7094167,
+          "accuracy_standard_error": 0.0041447,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.7136667,
+          "accuracy_standard_error": 0.0041266,
+          "messages": 2.8258333,
+          "energy": 2.8258333,
+          "mean_channel_time": 1.4129167,
+          "predicted": {
+            "delivery_by_deadline": 0.85785033,
+            "single_feature_accuracy": 0.84314013,
+            "both_features_accuracy": 0.71088529,
+            "mean_total_messages": 2.82095,
+            "mean_total_energy": 2.82095,
+            "mean_per_feature_channel_time": 1.410475
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.7119167,
+          "accuracy_standard_error": 0.0041341,
+          "messages": 2.4896667,
+          "energy": 2.4896667,
+          "mean_channel_time": 1.2448333,
+          "predicted": {
+            "delivery_by_deadline": 0.85462968,
+            "single_feature_accuracy": 0.84185187,
+            "both_features_accuracy": 0.70871458,
+            "mean_total_messages": 2.48415,
+            "mean_total_energy": 2.48415,
+            "mean_per_feature_channel_time": 1.242075
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.718,
+          "accuracy_standard_error": 0.0041077,
+          "messages": 2.8228333,
+          "energy": 2.4847667,
+          "mean_channel_time": 1.4959333,
+          "predicted": {
+            "delivery_by_deadline": 0.86726031,
+            "single_feature_accuracy": 0.84690413,
+            "both_features_accuracy": 0.7172466,
+            "mean_total_messages": 2.82095,
+            "mean_total_energy": 2.48415,
+            "mean_per_feature_channel_time": 1.494675
+          }
+        },
+        "always_two": {
+          "accuracy": 0.7194167,
+          "accuracy_standard_error": 0.0041014,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.869125,
+            "single_feature_accuracy": 0.84765,
+            "both_features_accuracy": 0.71851052,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": 0.0043333,
+        "se": 0.0007807,
+        "ci95": [
+          0.0028031,
+          0.0058636
+        ],
+        "predicted_difference": 0.0063613
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.15,
+      "burst_correlation": 0.85,
+      "detection_sensitivity": 0.95,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.4,
+      "deadline": 2.5,
+      "seed": 4175,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.6990833,
+          "accuracy_standard_error": 0.0041869,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.7030833,
+          "accuracy_standard_error": 0.0041709,
+          "messages": 2.6780833,
+          "energy": 2.6780833,
+          "mean_channel_time": 1.3390417,
+          "predicted": {
+            "delivery_by_deadline": 0.8564413,
+            "single_feature_accuracy": 0.84257652,
+            "both_features_accuracy": 0.70993519,
+            "mean_total_messages": 2.6736,
+            "mean_total_energy": 2.6736,
+            "mean_per_feature_channel_time": 1.3368
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.7006667,
+          "accuracy_standard_error": 0.0041806,
+          "messages": 2.33875,
+          "energy": 2.33875,
+          "mean_channel_time": 1.169375,
+          "predicted": {
+            "delivery_by_deadline": 0.85322065,
+            "single_feature_accuracy": 0.84128826,
+            "both_features_accuracy": 0.70776594,
+            "mean_total_messages": 2.3368,
+            "mean_total_energy": 2.3368,
+            "mean_per_feature_channel_time": 1.1684
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.6990833,
+          "accuracy_standard_error": 0.0041869,
+          "messages": 2.6724167,
+          "energy": 2.33555,
+          "mean_channel_time": 1.420425,
+          "predicted": {
+            "delivery_by_deadline": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2.6736,
+            "mean_total_energy": 2.3368,
+            "mean_per_feature_channel_time": 1.421
+          }
+        },
+        "always_two": {
+          "accuracy": 0.71075,
+          "accuracy_standard_error": 0.0041391,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.869125,
+            "single_feature_accuracy": 0.84765,
+            "both_features_accuracy": 0.71851052,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": -0.004,
+        "se": 0.000676,
+        "ci95": [
+          -0.005325,
+          -0.002675
+        ],
+        "predicted_difference": -0.0043352
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.15,
+      "burst_correlation": 0.85,
+      "detection_sensitivity": 0.95,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.4,
+      "deadline": 4.0,
+      "seed": 4348,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.7025833,
+          "accuracy_standard_error": 0.0041729,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.85,
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.7060833,
+          "accuracy_standard_error": 0.0041586,
+          "messages": 2.6745,
+          "energy": 2.6745,
+          "mean_channel_time": 1.33725,
+          "predicted": {
+            "delivery_by_deadline": 0.8564413,
+            "single_feature_accuracy": 0.84257652,
+            "both_features_accuracy": 0.70993519,
+            "mean_total_messages": 2.6736,
+            "mean_total_energy": 2.6736,
+            "mean_per_feature_channel_time": 1.3368
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.7051667,
+          "accuracy_standard_error": 0.0041624,
+          "messages": 2.3376667,
+          "energy": 2.3376667,
+          "mean_channel_time": 1.1688333,
+          "predicted": {
+            "delivery_by_deadline": 0.85322065,
+            "single_feature_accuracy": 0.84128826,
+            "both_features_accuracy": 0.70776594,
+            "mean_total_messages": 2.3368,
+            "mean_total_energy": 2.3368,
+            "mean_per_feature_channel_time": 1.1684
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.70925,
+          "accuracy_standard_error": 0.0041454,
+          "messages": 2.6844167,
+          "energy": 2.34395,
+          "mean_channel_time": 1.427325,
+          "predicted": {
+            "delivery_by_deadline": 0.86090125,
+            "single_feature_accuracy": 0.8443605,
+            "both_features_accuracy": 0.71294465,
+            "mean_total_messages": 2.6736,
+            "mean_total_energy": 2.3368,
+            "mean_per_feature_channel_time": 1.421
+          }
+        },
+        "always_two": {
+          "accuracy": 0.7155,
+          "accuracy_standard_error": 0.0041187,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.869125,
+            "single_feature_accuracy": 0.84765,
+            "both_features_accuracy": 0.71851052,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": 0.0031667,
+        "se": 0.0009124,
+        "ci95": [
+          0.0013783,
+          0.004955
+        ],
+        "predicted_difference": 0.0030095
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.35,
+      "burst_correlation": 0.0,
+      "detection_sensitivity": 0.55,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.05,
+      "deadline": 2.5,
+      "seed": 4521,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.5805,
+          "accuracy_standard_error": 0.0045048,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.6429167,
+          "accuracy_standard_error": 0.0043739,
+          "messages": 2.9529167,
+          "energy": 2.9529167,
+          "mean_channel_time": 1.4764583,
+          "predicted": {
+            "delivery_by_deadline": 0.75846631,
+            "single_feature_accuracy": 0.80338653,
+            "both_features_accuracy": 0.64542991,
+            "mean_total_messages": 2.95355,
+            "mean_total_energy": 2.95355,
+            "mean_per_feature_channel_time": 1.476775
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.61875,
+          "accuracy_standard_error": 0.0044338,
+          "messages": 2.5648333,
+          "energy": 2.5648333,
+          "mean_channel_time": 1.2824167,
+          "predicted": {
+            "delivery_by_deadline": 0.71396731,
+            "single_feature_accuracy": 0.78558693,
+            "both_features_accuracy": 0.61714682,
+            "mean_total_messages": 2.56235,
+            "mean_total_energy": 2.56235,
+            "mean_per_feature_channel_time": 1.281175
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.5805,
+          "accuracy_standard_error": 0.0045048,
+          "messages": 2.9464167,
+          "energy": 2.5570167,
+          "mean_channel_time": 1.5705583,
+          "predicted": {
+            "delivery_by_deadline": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 2.95355,
+            "mean_total_energy": 2.56235,
+            "mean_per_feature_channel_time": 1.574575
+          }
+        },
+        "always_two": {
+          "accuracy": 0.7246667,
+          "accuracy_standard_error": 0.0040776,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.8775,
+            "single_feature_accuracy": 0.851,
+            "both_features_accuracy": 0.724201,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": -0.0624167,
+        "se": 0.0025114,
+        "ci95": [
+          -0.0673391,
+          -0.0574943
+        ],
+        "predicted_difference": -0.0678299
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.35,
+      "burst_correlation": 0.0,
+      "detection_sensitivity": 0.55,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.05,
+      "deadline": 4.0,
+      "seed": 4694,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.5764167,
+          "accuracy_standard_error": 0.0045107,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.6485833,
+          "accuracy_standard_error": 0.0043582,
+          "messages": 2.9575,
+          "energy": 2.9575,
+          "mean_channel_time": 1.47875,
+          "predicted": {
+            "delivery_by_deadline": 0.75846631,
+            "single_feature_accuracy": 0.80338653,
+            "both_features_accuracy": 0.64542991,
+            "mean_total_messages": 2.95355,
+            "mean_total_energy": 2.95355,
+            "mean_per_feature_channel_time": 1.476775
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.6179167,
+          "accuracy_standard_error": 0.0044356,
+          "messages": 2.5585833,
+          "energy": 2.5585833,
+          "mean_channel_time": 1.2792917,
+          "predicted": {
+            "delivery_by_deadline": 0.71396731,
+            "single_feature_accuracy": 0.78558693,
+            "both_features_accuracy": 0.61714682,
+            "mean_total_messages": 2.56235,
+            "mean_total_energy": 2.56235,
+            "mean_per_feature_channel_time": 1.281175
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.6533333,
+          "accuracy_standard_error": 0.0043444,
+          "messages": 2.95975,
+          "energy": 2.56655,
+          "mean_channel_time": 1.578175,
+          "predicted": {
+            "delivery_by_deadline": 0.76886875,
+            "single_feature_accuracy": 0.8075475,
+            "both_features_accuracy": 0.65213296,
+            "mean_total_messages": 2.95355,
+            "mean_total_energy": 2.56235,
+            "mean_per_feature_channel_time": 1.574575
+          }
+        },
+        "always_two": {
+          "accuracy": 0.7238333,
+          "accuracy_standard_error": 0.0040814,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.8775,
+            "single_feature_accuracy": 0.851,
+            "both_features_accuracy": 0.724201,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": 0.00475,
+        "se": 0.0027773,
+        "ci95": [
+          -0.0006935,
+          0.0101935
+        ],
+        "predicted_difference": 0.006703
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.35,
+      "burst_correlation": 0.0,
+      "detection_sensitivity": 0.55,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.4,
+      "deadline": 2.5,
+      "seed": 4867,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.57375,
+          "accuracy_standard_error": 0.0045144,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.6303333,
+          "accuracy_standard_error": 0.0044066,
+          "messages": 2.77975,
+          "energy": 2.77975,
+          "mean_channel_time": 1.389875,
+          "predicted": {
+            "delivery_by_deadline": 0.738998,
+            "single_feature_accuracy": 0.7955992,
+            "both_features_accuracy": 0.63297809,
+            "mean_total_messages": 2.7824,
+            "mean_total_energy": 2.7824,
+            "mean_per_feature_channel_time": 1.3912
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.60225,
+          "accuracy_standard_error": 0.0044679,
+          "messages": 2.3943333,
+          "energy": 2.3943333,
+          "mean_channel_time": 1.1971667,
+          "predicted": {
+            "delivery_by_deadline": 0.694499,
+            "single_feature_accuracy": 0.7777996,
+            "both_features_accuracy": 0.60497222,
+            "mean_total_messages": 2.3912,
+            "mean_total_energy": 2.3912,
+            "mean_per_feature_channel_time": 1.1956
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.57375,
+          "accuracy_standard_error": 0.0045144,
+          "messages": 2.77475,
+          "energy": 2.3880167,
+          "mean_channel_time": 1.4840583,
+          "predicted": {
+            "delivery_by_deadline": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 2.7824,
+            "mean_total_energy": 2.3912,
+            "mean_per_feature_channel_time": 1.489
+          }
+        },
+        "always_two": {
+          "accuracy": 0.7250833,
+          "accuracy_standard_error": 0.0040757,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.8775,
+            "single_feature_accuracy": 0.851,
+            "both_features_accuracy": 0.724201,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": -0.0565833,
+        "se": 0.0023103,
+        "ci95": [
+          -0.0611115,
+          -0.0520552
+        ],
+        "predicted_difference": -0.0553781
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.35,
+      "burst_correlation": 0.0,
+      "detection_sensitivity": 0.55,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.4,
+      "deadline": 4.0,
+      "seed": 5040,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.5715,
+          "accuracy_standard_error": 0.0045174,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.6305833,
+          "accuracy_standard_error": 0.0044059,
+          "messages": 2.7891667,
+          "energy": 2.7891667,
+          "mean_channel_time": 1.3945833,
+          "predicted": {
+            "delivery_by_deadline": 0.738998,
+            "single_feature_accuracy": 0.7955992,
+            "both_features_accuracy": 0.63297809,
+            "mean_total_messages": 2.7824,
+            "mean_total_energy": 2.7824,
+            "mean_per_feature_channel_time": 1.3912
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.6005833,
+          "accuracy_standard_error": 0.004471,
+          "messages": 2.386,
+          "energy": 2.386,
+          "mean_channel_time": 1.193,
+          "predicted": {
+            "delivery_by_deadline": 0.694499,
+            "single_feature_accuracy": 0.7777996,
+            "both_features_accuracy": 0.60497222,
+            "mean_total_messages": 2.3912,
+            "mean_total_energy": 2.3912,
+            "mean_per_feature_channel_time": 1.1956
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.6183333,
+          "accuracy_standard_error": 0.0044347,
+          "messages": 2.7863333,
+          "energy": 2.394,
+          "mean_channel_time": 1.49125,
+          "predicted": {
+            "delivery_by_deadline": 0.725075,
+            "single_feature_accuracy": 0.79003,
+            "both_features_accuracy": 0.6241474,
+            "mean_total_messages": 2.7824,
+            "mean_total_energy": 2.3912,
+            "mean_per_feature_channel_time": 1.489
+          }
+        },
+        "always_two": {
+          "accuracy": 0.723,
+          "accuracy_standard_error": 0.0040852,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.8775,
+            "single_feature_accuracy": 0.851,
+            "both_features_accuracy": 0.724201,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": -0.01225,
+        "se": 0.0027019,
+        "ci95": [
+          -0.0175456,
+          -0.0069544
+        ],
+        "predicted_difference": -0.0088307
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.35,
+      "burst_correlation": 0.0,
+      "detection_sensitivity": 0.95,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.05,
+      "deadline": 2.5,
+      "seed": 5213,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.5701667,
+          "accuracy_standard_error": 0.0045192,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.6800833,
+          "accuracy_standard_error": 0.004258,
+          "messages": 3.4958333,
+          "energy": 3.4958333,
+          "mean_channel_time": 1.7479167,
+          "predicted": {
+            "delivery_by_deadline": 0.82057381,
+            "single_feature_accuracy": 0.82822953,
+            "both_features_accuracy": 0.68596415,
+            "mean_total_messages": 3.49955,
+            "mean_total_energy": 3.49955,
+            "mean_per_feature_channel_time": 1.749775
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.6348333,
+          "accuracy_standard_error": 0.0043953,
+          "messages": 2.8795,
+          "energy": 2.8795,
+          "mean_channel_time": 1.43975,
+          "predicted": {
+            "delivery_by_deadline": 0.75059481,
+            "single_feature_accuracy": 0.80023793,
+            "both_features_accuracy": 0.64038074,
+            "mean_total_messages": 2.88435,
+            "mean_total_energy": 2.88435,
+            "mean_per_feature_channel_time": 1.442175
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.5701667,
+          "accuracy_standard_error": 0.0045192,
+          "messages": 3.534,
+          "energy": 2.9049333,
+          "mean_channel_time": 1.9242667,
+          "predicted": {
+            "delivery_by_deadline": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 3.49955,
+            "mean_total_energy": 2.88435,
+            "mean_per_feature_channel_time": 1.903575
+          }
+        },
+        "always_two": {
+          "accuracy": 0.7214167,
+          "accuracy_standard_error": 0.0040924,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.8775,
+            "single_feature_accuracy": 0.851,
+            "both_features_accuracy": 0.724201,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": -0.1099167,
+        "se": 0.0032382,
+        "ci95": [
+          -0.1162636,
+          -0.1035697
+        ],
+        "predicted_difference": -0.1083641
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.35,
+      "burst_correlation": 0.0,
+      "detection_sensitivity": 0.95,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.05,
+      "deadline": 4.0,
+      "seed": 5386,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.5799167,
+          "accuracy_standard_error": 0.0045057,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.6869167,
+          "accuracy_standard_error": 0.0042334,
+          "messages": 3.49675,
+          "energy": 3.49675,
+          "mean_channel_time": 1.748375,
+          "predicted": {
+            "delivery_by_deadline": 0.82057381,
+            "single_feature_accuracy": 0.82822953,
+            "both_features_accuracy": 0.68596415,
+            "mean_total_messages": 3.49955,
+            "mean_total_energy": 3.49955,
+            "mean_per_feature_channel_time": 1.749775
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.6425,
+          "accuracy_standard_error": 0.0043751,
+          "messages": 2.88075,
+          "energy": 2.88075,
+          "mean_channel_time": 1.440375,
+          "predicted": {
+            "delivery_by_deadline": 0.75059481,
+            "single_feature_accuracy": 0.80023793,
+            "both_features_accuracy": 0.64038074,
+            "mean_total_messages": 2.88435,
+            "mean_total_energy": 2.88435,
+            "mean_per_feature_channel_time": 1.442175
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.711,
+          "accuracy_standard_error": 0.004138,
+          "messages": 3.4744167,
+          "energy": 2.86975,
+          "mean_channel_time": 1.888375,
+          "predicted": {
+            "delivery_by_deadline": 0.85531875,
+            "single_feature_accuracy": 0.8421275,
+            "both_features_accuracy": 0.70917873,
+            "mean_total_messages": 3.49955,
+            "mean_total_energy": 2.88435,
+            "mean_per_feature_channel_time": 1.903575
+          }
+        },
+        "always_two": {
+          "accuracy": 0.725,
+          "accuracy_standard_error": 0.0040761,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.8775,
+            "single_feature_accuracy": 0.851,
+            "both_features_accuracy": 0.724201,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": 0.0240833,
+        "se": 0.0021922,
+        "ci95": [
+          0.0197866,
+          0.0283801
+        ],
+        "predicted_difference": 0.0232146
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.35,
+      "burst_correlation": 0.0,
+      "detection_sensitivity": 0.95,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.4,
+      "deadline": 2.5,
+      "seed": 5559,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.5768333,
+          "accuracy_standard_error": 0.0045101,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.6608333,
+          "accuracy_standard_error": 0.0043218,
+          "messages": 3.2294167,
+          "energy": 3.2294167,
+          "mean_channel_time": 1.6147083,
+          "predicted": {
+            "delivery_by_deadline": 0.789958,
+            "single_feature_accuracy": 0.8159832,
+            "both_features_accuracy": 0.66582858,
+            "mean_total_messages": 3.2304,
+            "mean_total_energy": 3.2304,
+            "mean_per_feature_channel_time": 1.6152
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.6146667,
+          "accuracy_standard_error": 0.0044427,
+          "messages": 2.61325,
+          "energy": 2.61325,
+          "mean_channel_time": 1.306625,
+          "predicted": {
+            "delivery_by_deadline": 0.719979,
+            "single_feature_accuracy": 0.7879916,
+            "both_features_accuracy": 0.62093076,
+            "mean_total_messages": 2.6152,
+            "mean_total_energy": 2.6152,
+            "mean_per_feature_channel_time": 1.3076
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.5768333,
+          "accuracy_standard_error": 0.0045101,
+          "messages": 3.2265833,
+          "energy": 2.61365,
+          "mean_channel_time": 1.766525,
+          "predicted": {
+            "delivery_by_deadline": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 3.2304,
+            "mean_total_energy": 2.6152,
+            "mean_per_feature_channel_time": 1.769
+          }
+        },
+        "always_two": {
+          "accuracy": 0.71675,
+          "accuracy_standard_error": 0.0041132,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.8775,
+            "single_feature_accuracy": 0.851,
+            "both_features_accuracy": 0.724201,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": -0.084,
+        "se": 0.0028666,
+        "ci95": [
+          -0.0896186,
+          -0.0783814
+        ],
+        "predicted_difference": -0.0882286
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.35,
+      "burst_correlation": 0.0,
+      "detection_sensitivity": 0.95,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.4,
+      "deadline": 4.0,
+      "seed": 5732,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.5824167,
+          "accuracy_standard_error": 0.0045019,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.6690833,
+          "accuracy_standard_error": 0.0042955,
+          "messages": 3.2356667,
+          "energy": 3.2356667,
+          "mean_channel_time": 1.6178333,
+          "predicted": {
+            "delivery_by_deadline": 0.789958,
+            "single_feature_accuracy": 0.8159832,
+            "both_features_accuracy": 0.66582858,
+            "mean_total_messages": 3.2304,
+            "mean_total_energy": 3.2304,
+            "mean_per_feature_channel_time": 1.6152
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.628,
+          "accuracy_standard_error": 0.0044123,
+          "messages": 2.6114167,
+          "energy": 2.6114167,
+          "mean_channel_time": 1.3057083,
+          "predicted": {
+            "delivery_by_deadline": 0.719979,
+            "single_feature_accuracy": 0.7879916,
+            "both_features_accuracy": 0.62093076,
+            "mean_total_messages": 2.6152,
+            "mean_total_energy": 2.6152,
+            "mean_per_feature_channel_time": 1.3076
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.662,
+          "accuracy_standard_error": 0.0043181,
+          "messages": 3.2378333,
+          "energy": 2.6204333,
+          "mean_channel_time": 1.7732667,
+          "predicted": {
+            "delivery_by_deadline": 0.779675,
+            "single_feature_accuracy": 0.81187,
+            "both_features_accuracy": 0.6591329,
+            "mean_total_messages": 3.2304,
+            "mean_total_energy": 2.6152,
+            "mean_per_feature_channel_time": 1.769
+          }
+        },
+        "always_two": {
+          "accuracy": 0.72725,
+          "accuracy_standard_error": 0.0040657,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.8775,
+            "single_feature_accuracy": 0.851,
+            "both_features_accuracy": 0.724201,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": -0.0070833,
+        "se": 0.0026879,
+        "ci95": [
+          -0.0123517,
+          -0.001815
+        ],
+        "predicted_difference": -0.0066957
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.35,
+      "burst_correlation": 0.45,
+      "detection_sensitivity": 0.55,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.05,
+      "deadline": 2.5,
+      "seed": 5905,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.5785833,
+          "accuracy_standard_error": 0.0045076,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.6139167,
+          "accuracy_standard_error": 0.0044443,
+          "messages": 2.95175,
+          "energy": 2.95175,
+          "mean_channel_time": 1.475875,
+          "predicted": {
+            "delivery_by_deadline": 0.70965647,
+            "single_feature_accuracy": 0.78386259,
+            "both_features_accuracy": 0.61444056,
+            "mean_total_messages": 2.95355,
+            "mean_total_energy": 2.95355,
+            "mean_per_feature_channel_time": 1.476775
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.598,
+          "accuracy_standard_error": 0.0044758,
+          "messages": 2.5625,
+          "energy": 2.5625,
+          "mean_channel_time": 1.28125,
+          "predicted": {
+            "delivery_by_deadline": 0.68518202,
+            "single_feature_accuracy": 0.77407281,
+            "both_features_accuracy": 0.59918871,
+            "mean_total_messages": 2.56235,
+            "mean_total_energy": 2.56235,
+            "mean_per_feature_channel_time": 1.281175
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.5785833,
+          "accuracy_standard_error": 0.0045076,
+          "messages": 2.9509167,
+          "energy": 2.56045,
+          "mean_channel_time": 1.573075,
+          "predicted": {
+            "delivery_by_deadline": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 2.95355,
+            "mean_total_energy": 2.56235,
+            "mean_per_feature_channel_time": 1.574575
+          }
+        },
+        "always_two": {
+          "accuracy": 0.655,
+          "accuracy_standard_error": 0.0043395,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.775125,
+            "single_feature_accuracy": 0.81005,
+            "both_features_accuracy": 0.656181,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": -0.0353333,
+        "se": 0.0018616,
+        "ci95": [
+          -0.038982,
+          -0.0316847
+        ],
+        "predicted_difference": -0.0368406
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.35,
+      "burst_correlation": 0.45,
+      "detection_sensitivity": 0.55,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.05,
+      "deadline": 4.0,
+      "seed": 6078,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.57175,
+          "accuracy_standard_error": 0.0045171,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.6076667,
+          "accuracy_standard_error": 0.0044573,
+          "messages": 2.9571667,
+          "energy": 2.9571667,
+          "mean_channel_time": 1.4785833,
+          "predicted": {
+            "delivery_by_deadline": 0.70965647,
+            "single_feature_accuracy": 0.78386259,
+            "both_features_accuracy": 0.61444056,
+            "mean_total_messages": 2.95355,
+            "mean_total_energy": 2.95355,
+            "mean_per_feature_channel_time": 1.476775
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.5928333,
+          "accuracy_standard_error": 0.004485,
+          "messages": 2.5495,
+          "energy": 2.5495,
+          "mean_channel_time": 1.27475,
+          "predicted": {
+            "delivery_by_deadline": 0.68518202,
+            "single_feature_accuracy": 0.77407281,
+            "both_features_accuracy": 0.59918871,
+            "mean_total_messages": 2.56235,
+            "mean_total_energy": 2.56235,
+            "mean_per_feature_channel_time": 1.281175
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.6104167,
+          "accuracy_standard_error": 0.0044517,
+          "messages": 2.9695833,
+          "energy": 2.57245,
+          "mean_channel_time": 1.584075,
+          "predicted": {
+            "delivery_by_deadline": 0.71537781,
+            "single_feature_accuracy": 0.78615112,
+            "both_features_accuracy": 0.61803359,
+            "mean_total_messages": 2.95355,
+            "mean_total_energy": 2.56235,
+            "mean_per_feature_channel_time": 1.574575
+          }
+        },
+        "always_two": {
+          "accuracy": 0.65025,
+          "accuracy_standard_error": 0.0043534,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.775125,
+            "single_feature_accuracy": 0.81005,
+            "both_features_accuracy": 0.656181,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": 0.00275,
+        "se": 0.0020085,
+        "ci95": [
+          -0.0011867,
+          0.0066867
+        ],
+        "predicted_difference": 0.003593
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.35,
+      "burst_correlation": 0.45,
+      "detection_sensitivity": 0.55,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.4,
+      "deadline": 2.5,
+      "seed": 6251,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.5739167,
+          "accuracy_standard_error": 0.0045142,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.6046667,
+          "accuracy_standard_error": 0.0044632,
+          "messages": 2.7778333,
+          "energy": 2.7778333,
+          "mean_channel_time": 1.3889167,
+          "predicted": {
+            "delivery_by_deadline": 0.6989489,
+            "single_feature_accuracy": 0.77957956,
+            "both_features_accuracy": 0.60774429,
+            "mean_total_messages": 2.7824,
+            "mean_total_energy": 2.7824,
+            "mean_per_feature_channel_time": 1.3912
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.5888333,
+          "accuracy_standard_error": 0.0044917,
+          "messages": 2.3919167,
+          "energy": 2.3919167,
+          "mean_channel_time": 1.1959583,
+          "predicted": {
+            "delivery_by_deadline": 0.67447445,
+            "single_feature_accuracy": 0.76978978,
+            "both_features_accuracy": 0.59257631,
+            "mean_total_messages": 2.3912,
+            "mean_total_energy": 2.3912,
+            "mean_per_feature_channel_time": 1.1956
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.5739167,
+          "accuracy_standard_error": 0.0045142,
+          "messages": 2.7908333,
+          "energy": 2.3973667,
+          "mean_channel_time": 1.4937833,
+          "predicted": {
+            "delivery_by_deadline": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 2.7824,
+            "mean_total_energy": 2.3912,
+            "mean_per_feature_channel_time": 1.489
+          }
+        },
+        "always_two": {
+          "accuracy": 0.6524167,
+          "accuracy_standard_error": 0.0043471,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.775125,
+            "single_feature_accuracy": 0.81005,
+            "both_features_accuracy": 0.656181,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": -0.03075,
+        "se": 0.0017905,
+        "ci95": [
+          -0.0342594,
+          -0.0272406
+        ],
+        "predicted_difference": -0.0301443
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.35,
+      "burst_correlation": 0.45,
+      "detection_sensitivity": 0.55,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.4,
+      "deadline": 4.0,
+      "seed": 6424,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.5853333,
+          "accuracy_standard_error": 0.0044974,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.6115833,
+          "accuracy_standard_error": 0.0044492,
+          "messages": 2.7755833,
+          "energy": 2.7755833,
+          "mean_channel_time": 1.3877917,
+          "predicted": {
+            "delivery_by_deadline": 0.6989489,
+            "single_feature_accuracy": 0.77957956,
+            "both_features_accuracy": 0.60774429,
+            "mean_total_messages": 2.7824,
+            "mean_total_energy": 2.7824,
+            "mean_per_feature_channel_time": 1.3912
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.59975,
+          "accuracy_standard_error": 0.0044726,
+          "messages": 2.39325,
+          "energy": 2.39325,
+          "mean_channel_time": 1.196625,
+          "predicted": {
+            "delivery_by_deadline": 0.67447445,
+            "single_feature_accuracy": 0.76978978,
+            "both_features_accuracy": 0.59257631,
+            "mean_total_messages": 2.3912,
+            "mean_total_energy": 2.3912,
+            "mean_per_feature_channel_time": 1.1956
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.608,
+          "accuracy_standard_error": 0.0044566,
+          "messages": 2.778,
+          "energy": 2.3898,
+          "mean_channel_time": 1.48605,
+          "predicted": {
+            "delivery_by_deadline": 0.69129125,
+            "single_feature_accuracy": 0.7765165,
+            "both_features_accuracy": 0.60297787,
+            "mean_total_messages": 2.7824,
+            "mean_total_energy": 2.3912,
+            "mean_per_feature_channel_time": 1.489
+          }
+        },
+        "always_two": {
+          "accuracy": 0.6581667,
+          "accuracy_standard_error": 0.00433,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.775125,
+            "single_feature_accuracy": 0.81005,
+            "both_features_accuracy": 0.656181,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": -0.0035833,
+        "se": 0.0018835,
+        "ci95": [
+          -0.007275,
+          0.0001083
+        ],
+        "predicted_difference": -0.0047664
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.35,
+      "burst_correlation": 0.45,
+      "detection_sensitivity": 0.95,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.05,
+      "deadline": 2.5,
+      "seed": 6597,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.57375,
+          "accuracy_standard_error": 0.0045144,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.633,
+          "accuracy_standard_error": 0.0043999,
+          "messages": 3.5013333,
+          "energy": 3.5013333,
+          "mean_channel_time": 1.7506667,
+          "predicted": {
+            "delivery_by_deadline": 0.7438156,
+            "single_feature_accuracy": 0.79752624,
+            "both_features_accuracy": 0.6360481,
+            "mean_total_messages": 3.49955,
+            "mean_total_energy": 3.49955,
+            "mean_per_feature_channel_time": 1.749775
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.6070833,
+          "accuracy_standard_error": 0.0044584,
+          "messages": 2.8785833,
+          "energy": 2.8785833,
+          "mean_channel_time": 1.4392917,
+          "predicted": {
+            "delivery_by_deadline": 0.70532715,
+            "single_feature_accuracy": 0.78213086,
+            "both_features_accuracy": 0.61172868,
+            "mean_total_messages": 2.88435,
+            "mean_total_energy": 2.88435,
+            "mean_per_feature_channel_time": 1.442175
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.57375,
+          "accuracy_standard_error": 0.0045144,
+          "messages": 3.5091667,
+          "energy": 2.8893667,
+          "mean_channel_time": 1.9095333,
+          "predicted": {
+            "delivery_by_deadline": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 3.49955,
+            "mean_total_energy": 2.88435,
+            "mean_per_feature_channel_time": 1.903575
+          }
+        },
+        "always_two": {
+          "accuracy": 0.6533333,
+          "accuracy_standard_error": 0.0043444,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.775125,
+            "single_feature_accuracy": 0.81005,
+            "both_features_accuracy": 0.656181,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": -0.05925,
+        "se": 0.0024251,
+        "ci95": [
+          -0.0640032,
+          -0.0544968
+        ],
+        "predicted_difference": -0.0584481
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.35,
+      "burst_correlation": 0.45,
+      "detection_sensitivity": 0.95,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.05,
+      "deadline": 4.0,
+      "seed": 6770,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.5769167,
+          "accuracy_standard_error": 0.00451,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.63525,
+          "accuracy_standard_error": 0.0043942,
+          "messages": 3.4888333,
+          "energy": 3.4888333,
+          "mean_channel_time": 1.7444167,
+          "predicted": {
+            "delivery_by_deadline": 0.7438156,
+            "single_feature_accuracy": 0.79752624,
+            "both_features_accuracy": 0.6360481,
+            "mean_total_messages": 3.49955,
+            "mean_total_energy": 3.49955,
+            "mean_per_feature_channel_time": 1.749775
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.6114167,
+          "accuracy_standard_error": 0.0044496,
+          "messages": 2.8953333,
+          "energy": 2.8953333,
+          "mean_channel_time": 1.4476667,
+          "predicted": {
+            "delivery_by_deadline": 0.70532715,
+            "single_feature_accuracy": 0.78213086,
+            "both_features_accuracy": 0.61172868,
+            "mean_total_messages": 2.88435,
+            "mean_total_energy": 2.88435,
+            "mean_per_feature_channel_time": 1.442175
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.6435833,
+          "accuracy_standard_error": 0.0043721,
+          "messages": 3.4974167,
+          "energy": 2.88335,
+          "mean_channel_time": 1.902225,
+          "predicted": {
+            "delivery_by_deadline": 0.76292531,
+            "single_feature_accuracy": 0.80517013,
+            "both_features_accuracy": 0.64829893,
+            "mean_total_messages": 3.49955,
+            "mean_total_energy": 2.88435,
+            "mean_per_feature_channel_time": 1.903575
+          }
+        },
+        "always_two": {
+          "accuracy": 0.6529167,
+          "accuracy_standard_error": 0.0043457,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.775125,
+            "single_feature_accuracy": 0.81005,
+            "both_features_accuracy": 0.656181,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": 0.0083333,
+        "se": 0.0015527,
+        "ci95": [
+          0.00529,
+          0.0113766
+        ],
+        "predicted_difference": 0.0122508
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.35,
+      "burst_correlation": 0.45,
+      "detection_sensitivity": 0.95,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.4,
+      "deadline": 2.5,
+      "seed": 6943,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.5810833,
+          "accuracy_standard_error": 0.0045039,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.6309167,
+          "accuracy_standard_error": 0.0044051,
+          "messages": 3.2281667,
+          "energy": 3.2281667,
+          "mean_channel_time": 1.6140833,
+          "predicted": {
+            "delivery_by_deadline": 0.7269769,
+            "single_feature_accuracy": 0.79079076,
+            "both_features_accuracy": 0.62535003,
+            "mean_total_messages": 3.2304,
+            "mean_total_energy": 3.2304,
+            "mean_per_feature_channel_time": 1.6152
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.6045833,
+          "accuracy_standard_error": 0.0044634,
+          "messages": 2.6091667,
+          "energy": 2.6091667,
+          "mean_channel_time": 1.3045833,
+          "predicted": {
+            "delivery_by_deadline": 0.68848845,
+            "single_feature_accuracy": 0.77539538,
+            "both_features_accuracy": 0.601238,
+            "mean_total_messages": 2.6152,
+            "mean_total_energy": 2.6152,
+            "mean_per_feature_channel_time": 1.3076
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.5810833,
+          "accuracy_standard_error": 0.0045039,
+          "messages": 3.2370833,
+          "energy": 2.6172833,
+          "mean_channel_time": 1.7734917,
+          "predicted": {
+            "delivery_by_deadline": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 3.2304,
+            "mean_total_energy": 2.6152,
+            "mean_per_feature_channel_time": 1.769
+          }
+        },
+        "always_two": {
+          "accuracy": 0.66075,
+          "accuracy_standard_error": 0.004322,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.775125,
+            "single_feature_accuracy": 0.81005,
+            "both_features_accuracy": 0.656181,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": -0.0498333,
+        "se": 0.0022364,
+        "ci95": [
+          -0.0542166,
+          -0.04545
+        ],
+        "predicted_difference": -0.04775
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.35,
+      "burst_correlation": 0.45,
+      "detection_sensitivity": 0.95,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.4,
+      "deadline": 4.0,
+      "seed": 7116,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.5713333,
+          "accuracy_standard_error": 0.0045177,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.62075,
+          "accuracy_standard_error": 0.0044293,
+          "messages": 3.2444167,
+          "energy": 3.2444167,
+          "mean_channel_time": 1.6222083,
+          "predicted": {
+            "delivery_by_deadline": 0.7269769,
+            "single_feature_accuracy": 0.79079076,
+            "both_features_accuracy": 0.62535003,
+            "mean_total_messages": 3.2304,
+            "mean_total_energy": 3.2304,
+            "mean_per_feature_channel_time": 1.6152
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.594,
+          "accuracy_standard_error": 0.004483,
+          "messages": 2.6138333,
+          "energy": 2.6138333,
+          "mean_channel_time": 1.3069167,
+          "predicted": {
+            "delivery_by_deadline": 0.68848845,
+            "single_feature_accuracy": 0.77539538,
+            "both_features_accuracy": 0.601238,
+            "mean_total_messages": 2.6152,
+            "mean_total_energy": 2.6152,
+            "mean_per_feature_channel_time": 1.3076
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.6161667,
+          "accuracy_standard_error": 0.0044395,
+          "messages": 3.2473333,
+          "energy": 2.6251333,
+          "mean_channel_time": 1.7792167,
+          "predicted": {
+            "delivery_by_deadline": 0.72132125,
+            "single_feature_accuracy": 0.7885285,
+            "both_features_accuracy": 0.6217772,
+            "mean_total_messages": 3.2304,
+            "mean_total_energy": 2.6152,
+            "mean_per_feature_channel_time": 1.769
+          }
+        },
+        "always_two": {
+          "accuracy": 0.6479167,
+          "accuracy_standard_error": 0.0043601,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.775125,
+            "single_feature_accuracy": 0.81005,
+            "both_features_accuracy": 0.656181,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": -0.0045833,
+        "se": 0.0019592,
+        "ci95": [
+          -0.0084234,
+          -0.0007433
+        ],
+        "predicted_difference": -0.0035728
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.35,
+      "burst_correlation": 0.85,
+      "detection_sensitivity": 0.55,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.05,
+      "deadline": 2.5,
+      "seed": 7289,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.5753333,
+          "accuracy_standard_error": 0.0045123,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.5845,
+          "accuracy_standard_error": 0.0044987,
+          "messages": 2.95475,
+          "energy": 2.95475,
+          "mean_channel_time": 1.477375,
+          "predicted": {
+            "delivery_by_deadline": 0.66626995,
+            "single_feature_accuracy": 0.76650798,
+            "both_features_accuracy": 0.58753448,
+            "mean_total_messages": 2.95355,
+            "mean_total_energy": 2.95355,
+            "mean_per_feature_channel_time": 1.476775
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.5806667,
+          "accuracy_standard_error": 0.0045046,
+          "messages": 2.56425,
+          "energy": 2.56425,
+          "mean_channel_time": 1.282125,
+          "predicted": {
+            "delivery_by_deadline": 0.6595951,
+            "single_feature_accuracy": 0.76383804,
+            "both_features_accuracy": 0.58344855,
+            "mean_total_messages": 2.56235,
+            "mean_total_energy": 2.56235,
+            "mean_per_feature_channel_time": 1.281175
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.5753333,
+          "accuracy_standard_error": 0.0045123,
+          "messages": 2.9576667,
+          "energy": 2.5639333,
+          "mean_channel_time": 1.5772667,
+          "predicted": {
+            "delivery_by_deadline": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 2.95355,
+            "mean_total_energy": 2.56235,
+            "mean_per_feature_channel_time": 1.574575
+          }
+        },
+        "always_two": {
+          "accuracy": 0.595,
+          "accuracy_standard_error": 0.0044812,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.684125,
+            "single_feature_accuracy": 0.77365,
+            "both_features_accuracy": 0.59853432,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": -0.0091667,
+        "se": 0.0010034,
+        "ci95": [
+          -0.0111334,
+          -0.0071999
+        ],
+        "predicted_difference": -0.0099345
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.35,
+      "burst_correlation": 0.85,
+      "detection_sensitivity": 0.55,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.05,
+      "deadline": 4.0,
+      "seed": 7462,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.5708333,
+          "accuracy_standard_error": 0.0045183,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.58425,
+          "accuracy_standard_error": 0.0044991,
+          "messages": 2.95,
+          "energy": 2.95,
+          "mean_channel_time": 1.475,
+          "predicted": {
+            "delivery_by_deadline": 0.66626995,
+            "single_feature_accuracy": 0.76650798,
+            "both_features_accuracy": 0.58753448,
+            "mean_total_messages": 2.95355,
+            "mean_total_energy": 2.95355,
+            "mean_per_feature_channel_time": 1.476775
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.57825,
+          "accuracy_standard_error": 0.0045081,
+          "messages": 2.5645,
+          "energy": 2.5645,
+          "mean_channel_time": 1.28225,
+          "predicted": {
+            "delivery_by_deadline": 0.6595951,
+            "single_feature_accuracy": 0.76383804,
+            "both_features_accuracy": 0.58344855,
+            "mean_total_messages": 2.56235,
+            "mean_total_energy": 2.56235,
+            "mean_per_feature_channel_time": 1.281175
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.5825,
+          "accuracy_standard_error": 0.0045018,
+          "messages": 2.96575,
+          "energy": 2.56815,
+          "mean_channel_time": 1.582275,
+          "predicted": {
+            "delivery_by_deadline": 0.66783031,
+            "single_feature_accuracy": 0.76713213,
+            "both_features_accuracy": 0.5884917,
+            "mean_total_messages": 2.95355,
+            "mean_total_energy": 2.56235,
+            "mean_per_feature_channel_time": 1.574575
+          }
+        },
+        "always_two": {
+          "accuracy": 0.59425,
+          "accuracy_standard_error": 0.0044825,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.684125,
+            "single_feature_accuracy": 0.77365,
+            "both_features_accuracy": 0.59853432,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": -0.00175,
+        "se": 0.001096,
+        "ci95": [
+          -0.0038981,
+          0.0003981
+        ],
+        "predicted_difference": 0.0009572
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.35,
+      "burst_correlation": 0.85,
+      "detection_sensitivity": 0.55,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.4,
+      "deadline": 2.5,
+      "seed": 7635,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.5743333,
+          "accuracy_standard_error": 0.0045136,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.5813333,
+          "accuracy_standard_error": 0.0045036,
+          "messages": 2.7695833,
+          "energy": 2.7695833,
+          "mean_channel_time": 1.3847917,
+          "predicted": {
+            "delivery_by_deadline": 0.6633497,
+            "single_feature_accuracy": 0.76533988,
+            "both_features_accuracy": 0.58574513,
+            "mean_total_messages": 2.7824,
+            "mean_total_energy": 2.7824,
+            "mean_per_feature_channel_time": 1.3912
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.5781667,
+          "accuracy_standard_error": 0.0045082,
+          "messages": 2.3955,
+          "energy": 2.3955,
+          "mean_channel_time": 1.19775,
+          "predicted": {
+            "delivery_by_deadline": 0.65667485,
+            "single_feature_accuracy": 0.76266994,
+            "both_features_accuracy": 0.58166544,
+            "mean_total_messages": 2.3912,
+            "mean_total_energy": 2.3912,
+            "mean_per_feature_channel_time": 1.1956
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.5743333,
+          "accuracy_standard_error": 0.0045136,
+          "messages": 2.7676667,
+          "energy": 2.3835333,
+          "mean_channel_time": 1.4798667,
+          "predicted": {
+            "delivery_by_deadline": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 2.7824,
+            "mean_total_energy": 2.3912,
+            "mean_per_feature_channel_time": 1.489
+          }
+        },
+        "always_two": {
+          "accuracy": 0.5943333,
+          "accuracy_standard_error": 0.0044824,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.684125,
+            "single_feature_accuracy": 0.77365,
+            "both_features_accuracy": 0.59853432,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": -0.007,
+        "se": 0.0008952,
+        "ci95": [
+          -0.0087547,
+          -0.0052453
+        ],
+        "predicted_difference": -0.0081451
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.35,
+      "burst_correlation": 0.85,
+      "detection_sensitivity": 0.55,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.4,
+      "deadline": 4.0,
+      "seed": 7808,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.5763333,
+          "accuracy_standard_error": 0.0045109,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.58275,
+          "accuracy_standard_error": 0.0045014,
+          "messages": 2.783,
+          "energy": 2.783,
+          "mean_channel_time": 1.3915,
+          "predicted": {
+            "delivery_by_deadline": 0.6633497,
+            "single_feature_accuracy": 0.76533988,
+            "both_features_accuracy": 0.58574513,
+            "mean_total_messages": 2.7824,
+            "mean_total_energy": 2.7824,
+            "mean_per_feature_channel_time": 1.3912
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.5800833,
+          "accuracy_standard_error": 0.0045054,
+          "messages": 2.3913333,
+          "energy": 2.3913333,
+          "mean_channel_time": 1.1956667,
+          "predicted": {
+            "delivery_by_deadline": 0.65667485,
+            "single_feature_accuracy": 0.76266994,
+            "both_features_accuracy": 0.58166544,
+            "mean_total_messages": 2.3912,
+            "mean_total_energy": 2.3912,
+            "mean_per_feature_channel_time": 1.1956
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.5824167,
+          "accuracy_standard_error": 0.0045019,
+          "messages": 2.7860833,
+          "energy": 2.3944167,
+          "mean_channel_time": 1.4909583,
+          "predicted": {
+            "delivery_by_deadline": 0.66126125,
+            "single_feature_accuracy": 0.7645045,
+            "both_features_accuracy": 0.58446713,
+            "mean_total_messages": 2.7824,
+            "mean_total_energy": 2.3912,
+            "mean_per_feature_channel_time": 1.489
+          }
+        },
+        "always_two": {
+          "accuracy": 0.5945,
+          "accuracy_standard_error": 0.0044821,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.684125,
+            "single_feature_accuracy": 0.77365,
+            "both_features_accuracy": 0.59853432,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": -0.0003333,
+        "se": 0.0009718,
+        "ci95": [
+          -0.0022381,
+          0.0015714
+        ],
+        "predicted_difference": -0.001278
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.35,
+      "burst_correlation": 0.85,
+      "detection_sensitivity": 0.95,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.05,
+      "deadline": 2.5,
+      "seed": 7981,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.5809167,
+          "accuracy_standard_error": 0.0045042,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.597,
+          "accuracy_standard_error": 0.0044776,
+          "messages": 3.5039167,
+          "energy": 3.5039167,
+          "mean_channel_time": 1.7519583,
+          "predicted": {
+            "delivery_by_deadline": 0.67558607,
+            "single_feature_accuracy": 0.77023443,
+            "both_features_accuracy": 0.59326108,
+            "mean_total_messages": 3.49955,
+            "mean_total_energy": 3.49955,
+            "mean_per_feature_channel_time": 1.749775
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.5900833,
+          "accuracy_standard_error": 0.0044897,
+          "messages": 2.8909167,
+          "energy": 2.8909167,
+          "mean_channel_time": 1.4454583,
+          "predicted": {
+            "delivery_by_deadline": 0.66508922,
+            "single_feature_accuracy": 0.76603569,
+            "both_features_accuracy": 0.58681068,
+            "mean_total_messages": 2.88435,
+            "mean_total_energy": 2.88435,
+            "mean_per_feature_channel_time": 1.442175
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.5809167,
+          "accuracy_standard_error": 0.0045042,
+          "messages": 3.5121667,
+          "energy": 2.8920333,
+          "mean_channel_time": 1.9111167,
+          "predicted": {
+            "delivery_by_deadline": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 3.49955,
+            "mean_total_energy": 2.88435,
+            "mean_per_feature_channel_time": 1.903575
+          }
+        },
+        "always_two": {
+          "accuracy": 0.6016667,
+          "accuracy_standard_error": 0.004469,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.684125,
+            "single_feature_accuracy": 0.77365,
+            "both_features_accuracy": 0.59853432,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": -0.0160833,
+        "se": 0.0012907,
+        "ci95": [
+          -0.0186131,
+          -0.0135535
+        ],
+        "predicted_difference": -0.0156611
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.35,
+      "burst_correlation": 0.85,
+      "detection_sensitivity": 0.95,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.05,
+      "deadline": 4.0,
+      "seed": 8154,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.583,
+          "accuracy_standard_error": 0.004501,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.5985,
+          "accuracy_standard_error": 0.0044749,
+          "messages": 3.5106667,
+          "energy": 3.5106667,
+          "mean_channel_time": 1.7553333,
+          "predicted": {
+            "delivery_by_deadline": 0.67558607,
+            "single_feature_accuracy": 0.77023443,
+            "both_features_accuracy": 0.59326108,
+            "mean_total_messages": 3.49955,
+            "mean_total_energy": 3.49955,
+            "mean_per_feature_channel_time": 1.749775
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.5921667,
+          "accuracy_standard_error": 0.0044861,
+          "messages": 2.8873333,
+          "energy": 2.8873333,
+          "mean_channel_time": 1.4436667,
+          "predicted": {
+            "delivery_by_deadline": 0.66508922,
+            "single_feature_accuracy": 0.76603569,
+            "both_features_accuracy": 0.58681068,
+            "mean_total_messages": 2.88435,
+            "mean_total_energy": 2.88435,
+            "mean_per_feature_channel_time": 1.442175
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.6014167,
+          "accuracy_standard_error": 0.0044695,
+          "messages": 3.4840833,
+          "energy": 2.8748167,
+          "mean_channel_time": 1.8943583,
+          "predicted": {
+            "delivery_by_deadline": 0.68079781,
+            "single_feature_accuracy": 0.77231913,
+            "both_features_accuracy": 0.59647683,
+            "mean_total_messages": 3.49955,
+            "mean_total_energy": 2.88435,
+            "mean_per_feature_channel_time": 1.903575
+          }
+        },
+        "always_two": {
+          "accuracy": 0.6038333,
+          "accuracy_standard_error": 0.0044649,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.684125,
+            "single_feature_accuracy": 0.77365,
+            "both_features_accuracy": 0.59853432,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": 0.0029167,
+        "se": 0.0007587,
+        "ci95": [
+          0.0014295,
+          0.0044038
+        ],
+        "predicted_difference": 0.0032157
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.35,
+      "burst_correlation": 0.85,
+      "detection_sensitivity": 0.95,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.4,
+      "deadline": 2.5,
+      "seed": 8327,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.58275,
+          "accuracy_standard_error": 0.0045014,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.5965,
+          "accuracy_standard_error": 0.0044785,
+          "messages": 3.2266667,
+          "energy": 3.2266667,
+          "mean_channel_time": 1.6133333,
+          "predicted": {
+            "delivery_by_deadline": 0.6709937,
+            "single_feature_accuracy": 0.76839748,
+            "both_features_accuracy": 0.59043469,
+            "mean_total_messages": 3.2304,
+            "mean_total_energy": 3.2304,
+            "mean_per_feature_channel_time": 1.6152
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.58925,
+          "accuracy_standard_error": 0.0044911,
+          "messages": 2.61325,
+          "energy": 2.61325,
+          "mean_channel_time": 1.306625,
+          "predicted": {
+            "delivery_by_deadline": 0.66049685,
+            "single_feature_accuracy": 0.76419874,
+            "both_features_accuracy": 0.58399971,
+            "mean_total_messages": 2.6152,
+            "mean_total_energy": 2.6152,
+            "mean_per_feature_channel_time": 1.3076
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.58275,
+          "accuracy_standard_error": 0.0045014,
+          "messages": 3.2255833,
+          "energy": 2.6121833,
+          "mean_channel_time": 1.7661417,
+          "predicted": {
+            "delivery_by_deadline": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 3.2304,
+            "mean_total_energy": 2.6152,
+            "mean_per_feature_channel_time": 1.769
+          }
+        },
+        "always_two": {
+          "accuracy": 0.6058333,
+          "accuracy_standard_error": 0.0044609,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.684125,
+            "single_feature_accuracy": 0.77365,
+            "both_features_accuracy": 0.59853432,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": -0.01375,
+        "se": 0.0011509,
+        "ci95": [
+          -0.0160057,
+          -0.0114943
+        ],
+        "predicted_difference": -0.0128347
+      }
+    },
+    {
+      "noise": 0.1,
+      "erasure": 0.35,
+      "burst_correlation": 0.85,
+      "detection_sensitivity": 0.95,
+      "false_alarm": 0.08,
+      "feedback_erasure": 0.4,
+      "deadline": 4.0,
+      "seed": 8500,
+      "trials_per_strategy": 12000,
+      "strategies": {
+        "one_shot": {
+          "accuracy": 0.582,
+          "accuracy_standard_error": 0.0045026,
+          "messages": 2.0,
+          "energy": 2.0,
+          "mean_channel_time": 1.0,
+          "predicted": {
+            "delivery_by_deadline": 0.65,
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_total_messages": 2,
+            "mean_total_energy": 2.0,
+            "mean_per_feature_channel_time": 1.0
+          }
+        },
+        "blind_message_matched": {
+          "accuracy": 0.5961667,
+          "accuracy_standard_error": 0.0044791,
+          "messages": 3.2264167,
+          "energy": 3.2264167,
+          "mean_channel_time": 1.6132083,
+          "predicted": {
+            "delivery_by_deadline": 0.6709937,
+            "single_feature_accuracy": 0.76839748,
+            "both_features_accuracy": 0.59043469,
+            "mean_total_messages": 3.2304,
+            "mean_total_energy": 3.2304,
+            "mean_per_feature_channel_time": 1.6152
+          }
+        },
+        "blind_energy_matched": {
+          "accuracy": 0.5885,
+          "accuracy_standard_error": 0.0044923,
+          "messages": 2.6190833,
+          "energy": 2.6190833,
+          "mean_channel_time": 1.3095417,
+          "predicted": {
+            "delivery_by_deadline": 0.66049685,
+            "single_feature_accuracy": 0.76419874,
+            "both_features_accuracy": 0.58399971,
+            "mean_total_messages": 2.6152,
+            "mean_total_energy": 2.6152,
+            "mean_per_feature_channel_time": 1.3076
+          }
+        },
+        "selective_feedback": {
+          "accuracy": 0.5943333,
+          "accuracy_standard_error": 0.0044824,
+          "messages": 3.21925,
+          "energy": 2.6115833,
+          "mean_channel_time": 1.7615417,
+          "predicted": {
+            "delivery_by_deadline": 0.66945125,
+            "single_feature_accuracy": 0.7677805,
+            "both_features_accuracy": 0.5894869,
+            "mean_total_messages": 3.2304,
+            "mean_total_energy": 2.6152,
+            "mean_per_feature_channel_time": 1.769
+          }
+        },
+        "always_two": {
+          "accuracy": 0.6033333,
+          "accuracy_standard_error": 0.0044658,
+          "messages": 4.0,
+          "energy": 4.0,
+          "mean_channel_time": 2.0,
+          "predicted": {
+            "delivery_by_deadline": 0.684125,
+            "single_feature_accuracy": 0.77365,
+            "both_features_accuracy": 0.59853432,
+            "mean_total_messages": 4.0,
+            "mean_total_energy": 4.0,
+            "mean_per_feature_channel_time": 2.0
+          }
+        }
+      },
+      "paired_difference": {
+        "feedback_minus_message_matched": -0.0018333,
+        "se": 0.0010273,
+        "ci95": [
+          -0.0038468,
+          0.0001801
+        ],
+        "predicted_difference": -0.0009478
+      }
+    }
+  ],
+  "cost_model": {
+    "data_energy": 1.0,
+    "nack_energy": 0.2,
+    "data_time": 1.0,
+    "nack_roundtrip": 1.4,
+    "retry_delivery_time": 3.4,
+    "blind_repeat_delivery_time": 2.0
+  },
+  "limitations": [
+    "The erasure process is a stylized sticky two-packet model, not a fitted network trace or full Gilbert-Elliott process.",
+    "Failures are correlated within each feature only, not across both features.",
+    "Message matching and energy matching are expectation-based; pathwise and worst-case costs are unequal.",
+    "All retransmissions are attempted even if they will miss a deadline; results are evaluated at the deadline.",
+    "A NACK is receiver-initiated using a stipulated detection sensitivity and false-alarm probability.",
+    "Feedback control loss is independent of data-channel losses.",
+    "Sensors, data timing, and synthetic guesses are deliberately simplified.",
+    "This is not a real-network or neuroscience validation and does not measure consciousness."
+  ]
+}
