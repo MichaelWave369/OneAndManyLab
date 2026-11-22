@@ -79,6 +79,10 @@ Feedback does not prove conscious integration. In this toy model, retry and fixe
 
 Enable **Settings → Pages → Build and deployment → Source: GitHub Actions** once, then push to `main`. The Pages workflow validates the Python tests before publishing the React app. No secrets or external API keys are required.
 
+## Part XII: measured ICMP timeout and RTT replay
+
+New React tab **Part XII · Measured** replays 1,611 actual RIPE Atlas ping outcomes from three public series (537 complete groups with four explicit timeouts, November 20, 2026 UTC). It compares one, two, three observed opportunities and a hindsight-only selective upper bound under selectable RTT cutoffs, using a chronological holdout. **This is observational replay, not a causal estimate of a deployed policy.** Packet groups are around four minutes apart. [Full methods](research/PART_XII_REPORT.md); [frozen data](public/data/part12.json); [Python analysis](research/measured_ping_replay.py); [original importer](research/import_ripe_atlas.py).
+
 ## Part XI: time-based trace replay with hard energy caps (November 2026)
 
 New React section: **Part XI · Timing**. The companion reproducible Python model is `research/temporal_channel.py`; run:
