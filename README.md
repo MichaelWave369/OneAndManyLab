@@ -78,3 +78,16 @@ Feedback does not prove conscious integration. In this toy model, retry and fixe
 ## Deployment
 
 Enable **Settings → Pages → Build and deployment → Source: GitHub Actions** once, then push to `main`. The Pages workflow validates the Python tests before publishing the React app. No secrets or external API keys are required.
+
+## Part XI: time-based trace replay with hard energy caps (November 2026)
+
+New React section: **Part XI · Timing**. The companion reproducible Python model is `research/temporal_channel.py`; run:
+
+```sh
+python -m unittest discover -s research -p 'test_*.py' -v
+python research/temporal_channel.py --trials 8000 --seed 369 --output public/data/part11.json
+```
+
+The study examines 36 configurations across four policies and 1,152,000 simulated protocol evaluations. The two link-capacity settings are a short **measured bandwidth excerpt** from the CC BY 4.0 Chorus/MobiCom 2024 cellular-airport trace and a synthetic fixed-rate baseline. Link erasures, return-channel feedback, and sensed features are independently synthetic. The model enforces **per-episode** energy limits (2.0, 3.25, 4.5 units), not merely matched mean expenses. The dashboard uses committed JSON and CSV data, not live browser simulations.
+
+See [`research/PART_XI_REPORT.md`](research/PART_XI_REPORT.md), [`research/traces/README.md`](research/traces/README.md) for provenance and limitations. Neither the results nor the terms *integration* and *recurrent* establish consciousness.
