@@ -1,0 +1,40 @@
+{
+  "experiment": "Same external behavior, different internal causal organization",
+  "reference": "Wu and He (2026) arXiv:2611.08469 Section 3",
+  "status": "Independent minimal Monte Carlo implementation of selected construction; no IIT Phi calculation",
+  "seed": 369,
+  "initial_states": 16,
+  "trials_per_state_per_architecture": 50000,
+  "analytical": {
+    "A": 0.155232,
+    "matching_input_output_probability_both": 0.577616,
+    "recurrent_internal_probe_matching_input_probability": 0.5,
+    "feedforward_internal_probe_matching_input_probability": 0.696997,
+    "phi_values_reported_in_paper_not_calculated_here": {
+      "recurrent": 0.28,
+      "feedforward": 0.0
+    }
+  },
+  "observed": {
+    "recurrent": {
+      "trials": 800000,
+      "io_match_rate": 0.578865,
+      "io_standard_error": 0.000552,
+      "internal_probe_match_rate": 0.499849,
+      "probe_standard_error": 0.000559
+    },
+    "feedforward": {
+      "trials": 800000,
+      "io_match_rate": 0.578224,
+      "io_standard_error": 0.000552,
+      "internal_probe_match_rate": 0.697624,
+      "probe_standard_error": 0.000513
+    }
+  },
+  "limitations": [
+    "Equivalence holds for the specified input, output and two-step horizon, not arbitrary tasks.",
+    "The Monte Carlo trial noise is independent; initial four-bit states are balanced.",
+    "Internal probe refers to one intermediate unit, not to consciousness.",
+    "This implementation does not compute integrated information or establish which, if either, system experiences anything."
+  ]
+}

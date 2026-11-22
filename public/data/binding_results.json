@@ -1,0 +1,682 @@
+{
+  "experiment": "Distributed color-and-shape feature binding under noise and channel erasure",
+  "method": "Paired synthetic episodes; identical initial sensory samples and target cues; differing packet-transfer protocols",
+  "status": "Model comparison; not IIT/GNWT implementation or consciousness measurement",
+  "seed": 369,
+  "trials_per_condition_per_protocol": 50000,
+  "total_trials_per_protocol": 450000,
+  "conditions": [
+    {
+      "trials_per_protocol": 50000,
+      "sensory_noise": 0.0,
+      "packet_erasure": 0.0,
+      "seed": 369,
+      "protocols": {
+        "feedforward": {
+          "both_features_accuracy": 1.0,
+          "both_features_standard_error": 0.0,
+          "single_feature_accuracy": 1.0,
+          "mean_data_packets": 2.0,
+          "mean_control_packets": 0.0,
+          "mean_total_packets": 2.0,
+          "mean_received_packets": 2.0,
+          "analytical": {
+            "single_feature_accuracy": 1.0,
+            "both_features_accuracy": 1.0,
+            "mean_data_packets": 2.0,
+            "mean_control_packets": 0.0,
+            "mean_total_packets": 2.0
+          }
+        },
+        "workspace": {
+          "both_features_accuracy": 1.0,
+          "both_features_standard_error": 0.0,
+          "single_feature_accuracy": 1.0,
+          "mean_data_packets": 2.0,
+          "mean_control_packets": 0.0,
+          "mean_total_packets": 2.0,
+          "mean_received_packets": 2.0,
+          "analytical": {
+            "single_feature_accuracy": 1.0,
+            "both_features_accuracy": 1.0,
+            "mean_data_packets": 2.0,
+            "mean_control_packets": 0.0,
+            "mean_total_packets": 2.0
+          }
+        },
+        "recurrent_retry": {
+          "both_features_accuracy": 1.0,
+          "both_features_standard_error": 0.0,
+          "single_feature_accuracy": 1.0,
+          "mean_data_packets": 2.0,
+          "mean_control_packets": 0.0,
+          "mean_total_packets": 2.0,
+          "mean_received_packets": 2.0,
+          "analytical": {
+            "single_feature_accuracy": 1.0,
+            "both_features_accuracy": 1.0,
+            "mean_data_packets": 2.0,
+            "mean_control_packets": 0.0,
+            "mean_total_packets": 2.0
+          }
+        },
+        "feedforward_redundant": {
+          "both_features_accuracy": 1.0,
+          "both_features_standard_error": 0.0,
+          "single_feature_accuracy": 1.0,
+          "mean_data_packets": 4.0,
+          "mean_control_packets": 0.0,
+          "mean_total_packets": 4.0,
+          "mean_received_packets": 2.0,
+          "analytical": {
+            "single_feature_accuracy": 1.0,
+            "both_features_accuracy": 1.0,
+            "mean_data_packets": 4.0,
+            "mean_control_packets": 0.0,
+            "mean_total_packets": 4.0
+          }
+        }
+      }
+    },
+    {
+      "trials_per_protocol": 50000,
+      "sensory_noise": 0.0,
+      "packet_erasure": 0.15,
+      "seed": 470,
+      "protocols": {
+        "feedforward": {
+          "both_features_accuracy": 0.85536,
+          "both_features_standard_error": 0.001573,
+          "single_feature_accuracy": 0.92482,
+          "mean_data_packets": 2.0,
+          "mean_control_packets": 0.0,
+          "mean_total_packets": 2.0,
+          "mean_received_packets": 1.70086,
+          "analytical": {
+            "single_feature_accuracy": 0.925,
+            "both_features_accuracy": 0.855625,
+            "mean_data_packets": 2.0,
+            "mean_control_packets": 0.0,
+            "mean_total_packets": 2.0
+          }
+        },
+        "workspace": {
+          "both_features_accuracy": 0.85942,
+          "both_features_standard_error": 0.001554,
+          "single_feature_accuracy": 0.92694,
+          "mean_data_packets": 2.0,
+          "mean_control_packets": 0.0,
+          "mean_total_packets": 2.0,
+          "mean_received_packets": 1.70414,
+          "analytical": {
+            "single_feature_accuracy": 0.925,
+            "both_features_accuracy": 0.855625,
+            "mean_data_packets": 2.0,
+            "mean_control_packets": 0.0,
+            "mean_total_packets": 2.0
+          }
+        },
+        "recurrent_retry": {
+          "both_features_accuracy": 0.9782,
+          "both_features_standard_error": 0.000653,
+          "single_feature_accuracy": 0.98902,
+          "mean_data_packets": 2.29988,
+          "mean_control_packets": 0.29988,
+          "mean_total_packets": 2.59976,
+          "mean_received_packets": 1.95586,
+          "analytical": {
+            "single_feature_accuracy": 0.98875,
+            "both_features_accuracy": 0.977627,
+            "mean_data_packets": 2.3,
+            "mean_control_packets": 0.3,
+            "mean_total_packets": 2.6
+          }
+        },
+        "feedforward_redundant": {
+          "both_features_accuracy": 0.9781,
+          "both_features_standard_error": 0.000655,
+          "single_feature_accuracy": 0.98899,
+          "mean_data_packets": 4.0,
+          "mean_control_packets": 0.0,
+          "mean_total_packets": 4.0,
+          "mean_received_packets": 1.95552,
+          "analytical": {
+            "single_feature_accuracy": 0.98875,
+            "both_features_accuracy": 0.977627,
+            "mean_data_packets": 4.0,
+            "mean_control_packets": 0.0,
+            "mean_total_packets": 4.0
+          }
+        }
+      }
+    },
+    {
+      "trials_per_protocol": 50000,
+      "sensory_noise": 0.0,
+      "packet_erasure": 0.35,
+      "seed": 571,
+      "protocols": {
+        "feedforward": {
+          "both_features_accuracy": 0.68228,
+          "both_features_standard_error": 0.002082,
+          "single_feature_accuracy": 0.82611,
+          "mean_data_packets": 2.0,
+          "mean_control_packets": 0.0,
+          "mean_total_packets": 2.0,
+          "mean_received_packets": 1.29958,
+          "analytical": {
+            "single_feature_accuracy": 0.825,
+            "both_features_accuracy": 0.680625,
+            "mean_data_packets": 2.0,
+            "mean_control_packets": 0.0,
+            "mean_total_packets": 2.0
+          }
+        },
+        "workspace": {
+          "both_features_accuracy": 0.68188,
+          "both_features_standard_error": 0.002083,
+          "single_feature_accuracy": 0.8257,
+          "mean_data_packets": 2.0,
+          "mean_control_packets": 0.0,
+          "mean_total_packets": 2.0,
+          "mean_received_packets": 1.29978,
+          "analytical": {
+            "single_feature_accuracy": 0.825,
+            "both_features_accuracy": 0.680625,
+            "mean_data_packets": 2.0,
+            "mean_control_packets": 0.0,
+            "mean_total_packets": 2.0
+          }
+        },
+        "recurrent_retry": {
+          "both_features_accuracy": 0.88082,
+          "both_features_standard_error": 0.001449,
+          "single_feature_accuracy": 0.9388,
+          "mean_data_packets": 2.70136,
+          "mean_control_packets": 0.70136,
+          "mean_total_packets": 3.40272,
+          "mean_received_packets": 1.75418,
+          "analytical": {
+            "single_feature_accuracy": 0.93875,
+            "both_features_accuracy": 0.881252,
+            "mean_data_packets": 2.7,
+            "mean_control_packets": 0.7,
+            "mean_total_packets": 3.4
+          }
+        },
+        "feedforward_redundant": {
+          "both_features_accuracy": 0.88118,
+          "both_features_standard_error": 0.001447,
+          "single_feature_accuracy": 0.93861,
+          "mean_data_packets": 4.0,
+          "mean_control_packets": 0.0,
+          "mean_total_packets": 4.0,
+          "mean_received_packets": 1.75452,
+          "analytical": {
+            "single_feature_accuracy": 0.93875,
+            "both_features_accuracy": 0.881252,
+            "mean_data_packets": 4.0,
+            "mean_control_packets": 0.0,
+            "mean_total_packets": 4.0
+          }
+        }
+      }
+    },
+    {
+      "trials_per_protocol": 50000,
+      "sensory_noise": 0.1,
+      "packet_erasure": 0.0,
+      "seed": 672,
+      "protocols": {
+        "feedforward": {
+          "both_features_accuracy": 0.80794,
+          "both_features_standard_error": 0.001762,
+          "single_feature_accuracy": 0.89926,
+          "mean_data_packets": 2.0,
+          "mean_control_packets": 0.0,
+          "mean_total_packets": 2.0,
+          "mean_received_packets": 2.0,
+          "analytical": {
+            "single_feature_accuracy": 0.9,
+            "both_features_accuracy": 0.81,
+            "mean_data_packets": 2.0,
+            "mean_control_packets": 0.0,
+            "mean_total_packets": 2.0
+          }
+        },
+        "workspace": {
+          "both_features_accuracy": 0.80794,
+          "both_features_standard_error": 0.001762,
+          "single_feature_accuracy": 0.89926,
+          "mean_data_packets": 2.0,
+          "mean_control_packets": 0.0,
+          "mean_total_packets": 2.0,
+          "mean_received_packets": 2.0,
+          "analytical": {
+            "single_feature_accuracy": 0.9,
+            "both_features_accuracy": 0.81,
+            "mean_data_packets": 2.0,
+            "mean_control_packets": 0.0,
+            "mean_total_packets": 2.0
+          }
+        },
+        "recurrent_retry": {
+          "both_features_accuracy": 0.80794,
+          "both_features_standard_error": 0.001762,
+          "single_feature_accuracy": 0.89926,
+          "mean_data_packets": 2.0,
+          "mean_control_packets": 0.0,
+          "mean_total_packets": 2.0,
+          "mean_received_packets": 2.0,
+          "analytical": {
+            "single_feature_accuracy": 0.9,
+            "both_features_accuracy": 0.81,
+            "mean_data_packets": 2.0,
+            "mean_control_packets": 0.0,
+            "mean_total_packets": 2.0
+          }
+        },
+        "feedforward_redundant": {
+          "both_features_accuracy": 0.80794,
+          "both_features_standard_error": 0.001762,
+          "single_feature_accuracy": 0.89926,
+          "mean_data_packets": 4.0,
+          "mean_control_packets": 0.0,
+          "mean_total_packets": 4.0,
+          "mean_received_packets": 2.0,
+          "analytical": {
+            "single_feature_accuracy": 0.9,
+            "both_features_accuracy": 0.81,
+            "mean_data_packets": 4.0,
+            "mean_control_packets": 0.0,
+            "mean_total_packets": 4.0
+          }
+        }
+      }
+    },
+    {
+      "trials_per_protocol": 50000,
+      "sensory_noise": 0.1,
+      "packet_erasure": 0.15,
+      "seed": 773,
+      "protocols": {
+        "feedforward": {
+          "both_features_accuracy": 0.7064,
+          "both_features_standard_error": 0.002037,
+          "single_feature_accuracy": 0.84024,
+          "mean_data_packets": 2.0,
+          "mean_control_packets": 0.0,
+          "mean_total_packets": 2.0,
+          "mean_received_packets": 1.69956,
+          "analytical": {
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_data_packets": 2.0,
+            "mean_control_packets": 0.0,
+            "mean_total_packets": 2.0
+          }
+        },
+        "workspace": {
+          "both_features_accuracy": 0.7055,
+          "both_features_standard_error": 0.002038,
+          "single_feature_accuracy": 0.83989,
+          "mean_data_packets": 2.0,
+          "mean_control_packets": 0.0,
+          "mean_total_packets": 2.0,
+          "mean_received_packets": 1.6984,
+          "analytical": {
+            "single_feature_accuracy": 0.84,
+            "both_features_accuracy": 0.7056,
+            "mean_data_packets": 2.0,
+            "mean_control_packets": 0.0,
+            "mean_total_packets": 2.0
+          }
+        },
+        "recurrent_retry": {
+          "both_features_accuracy": 0.79502,
+          "both_features_standard_error": 0.001805,
+          "single_feature_accuracy": 0.89148,
+          "mean_data_packets": 2.30108,
+          "mean_control_packets": 0.30108,
+          "mean_total_packets": 2.60216,
+          "mean_received_packets": 1.95448,
+          "analytical": {
+            "single_feature_accuracy": 0.891,
+            "both_features_accuracy": 0.793881,
+            "mean_data_packets": 2.3,
+            "mean_control_packets": 0.3,
+            "mean_total_packets": 2.6
+          }
+        },
+        "feedforward_redundant": {
+          "both_features_accuracy": 0.79438,
+          "both_features_standard_error": 0.001807,
+          "single_feature_accuracy": 0.89122,
+          "mean_data_packets": 4.0,
+          "mean_control_packets": 0.0,
+          "mean_total_packets": 4.0,
+          "mean_received_packets": 1.958,
+          "analytical": {
+            "single_feature_accuracy": 0.891,
+            "both_features_accuracy": 0.793881,
+            "mean_data_packets": 4.0,
+            "mean_control_packets": 0.0,
+            "mean_total_packets": 4.0
+          }
+        }
+      }
+    },
+    {
+      "trials_per_protocol": 50000,
+      "sensory_noise": 0.1,
+      "packet_erasure": 0.35,
+      "seed": 874,
+      "protocols": {
+        "feedforward": {
+          "both_features_accuracy": 0.57806,
+          "both_features_standard_error": 0.002209,
+          "single_feature_accuracy": 0.76016,
+          "mean_data_packets": 2.0,
+          "mean_control_packets": 0.0,
+          "mean_total_packets": 2.0,
+          "mean_received_packets": 1.30428,
+          "analytical": {
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_data_packets": 2.0,
+            "mean_control_packets": 0.0,
+            "mean_total_packets": 2.0
+          }
+        },
+        "workspace": {
+          "both_features_accuracy": 0.57758,
+          "both_features_standard_error": 0.002209,
+          "single_feature_accuracy": 0.75953,
+          "mean_data_packets": 2.0,
+          "mean_control_packets": 0.0,
+          "mean_total_packets": 2.0,
+          "mean_received_packets": 1.29684,
+          "analytical": {
+            "single_feature_accuracy": 0.76,
+            "both_features_accuracy": 0.5776,
+            "mean_data_packets": 2.0,
+            "mean_control_packets": 0.0,
+            "mean_total_packets": 2.0
+          }
+        },
+        "recurrent_retry": {
+          "both_features_accuracy": 0.72226,
+          "both_features_standard_error": 0.002003,
+          "single_feature_accuracy": 0.84963,
+          "mean_data_packets": 2.6981,
+          "mean_control_packets": 0.6981,
+          "mean_total_packets": 3.3962,
+          "mean_received_packets": 1.75498,
+          "analytical": {
+            "single_feature_accuracy": 0.851,
+            "both_features_accuracy": 0.724201,
+            "mean_data_packets": 2.7,
+            "mean_control_packets": 0.7,
+            "mean_total_packets": 3.4
+          }
+        },
+        "feedforward_redundant": {
+          "both_features_accuracy": 0.72402,
+          "both_features_standard_error": 0.001999,
+          "single_feature_accuracy": 0.85072,
+          "mean_data_packets": 4.0,
+          "mean_control_packets": 0.0,
+          "mean_total_packets": 4.0,
+          "mean_received_packets": 1.75616,
+          "analytical": {
+            "single_feature_accuracy": 0.851,
+            "both_features_accuracy": 0.724201,
+            "mean_data_packets": 4.0,
+            "mean_control_packets": 0.0,
+            "mean_total_packets": 4.0
+          }
+        }
+      }
+    },
+    {
+      "trials_per_protocol": 50000,
+      "sensory_noise": 0.25,
+      "packet_erasure": 0.0,
+      "seed": 975,
+      "protocols": {
+        "feedforward": {
+          "both_features_accuracy": 0.56456,
+          "both_features_standard_error": 0.002217,
+          "single_feature_accuracy": 0.75174,
+          "mean_data_packets": 2.0,
+          "mean_control_packets": 0.0,
+          "mean_total_packets": 2.0,
+          "mean_received_packets": 2.0,
+          "analytical": {
+            "single_feature_accuracy": 0.75,
+            "both_features_accuracy": 0.5625,
+            "mean_data_packets": 2.0,
+            "mean_control_packets": 0.0,
+            "mean_total_packets": 2.0
+          }
+        },
+        "workspace": {
+          "both_features_accuracy": 0.56456,
+          "both_features_standard_error": 0.002217,
+          "single_feature_accuracy": 0.75174,
+          "mean_data_packets": 2.0,
+          "mean_control_packets": 0.0,
+          "mean_total_packets": 2.0,
+          "mean_received_packets": 2.0,
+          "analytical": {
+            "single_feature_accuracy": 0.75,
+            "both_features_accuracy": 0.5625,
+            "mean_data_packets": 2.0,
+            "mean_control_packets": 0.0,
+            "mean_total_packets": 2.0
+          }
+        },
+        "recurrent_retry": {
+          "both_features_accuracy": 0.56456,
+          "both_features_standard_error": 0.002217,
+          "single_feature_accuracy": 0.75174,
+          "mean_data_packets": 2.0,
+          "mean_control_packets": 0.0,
+          "mean_total_packets": 2.0,
+          "mean_received_packets": 2.0,
+          "analytical": {
+            "single_feature_accuracy": 0.75,
+            "both_features_accuracy": 0.5625,
+            "mean_data_packets": 2.0,
+            "mean_control_packets": 0.0,
+            "mean_total_packets": 2.0
+          }
+        },
+        "feedforward_redundant": {
+          "both_features_accuracy": 0.56456,
+          "both_features_standard_error": 0.002217,
+          "single_feature_accuracy": 0.75174,
+          "mean_data_packets": 4.0,
+          "mean_control_packets": 0.0,
+          "mean_total_packets": 4.0,
+          "mean_received_packets": 2.0,
+          "analytical": {
+            "single_feature_accuracy": 0.75,
+            "both_features_accuracy": 0.5625,
+            "mean_data_packets": 4.0,
+            "mean_control_packets": 0.0,
+            "mean_total_packets": 4.0
+          }
+        }
+      }
+    },
+    {
+      "trials_per_protocol": 50000,
+      "sensory_noise": 0.25,
+      "packet_erasure": 0.15,
+      "seed": 1076,
+      "protocols": {
+        "feedforward": {
+          "both_features_accuracy": 0.5071,
+          "both_features_standard_error": 0.002236,
+          "single_feature_accuracy": 0.712,
+          "mean_data_packets": 2.0,
+          "mean_control_packets": 0.0,
+          "mean_total_packets": 2.0,
+          "mean_received_packets": 1.69556,
+          "analytical": {
+            "single_feature_accuracy": 0.7125,
+            "both_features_accuracy": 0.507656,
+            "mean_data_packets": 2.0,
+            "mean_control_packets": 0.0,
+            "mean_total_packets": 2.0
+          }
+        },
+        "workspace": {
+          "both_features_accuracy": 0.50594,
+          "both_features_standard_error": 0.002236,
+          "single_feature_accuracy": 0.71221,
+          "mean_data_packets": 2.0,
+          "mean_control_packets": 0.0,
+          "mean_total_packets": 2.0,
+          "mean_received_packets": 1.7005,
+          "analytical": {
+            "single_feature_accuracy": 0.7125,
+            "both_features_accuracy": 0.507656,
+            "mean_data_packets": 2.0,
+            "mean_control_packets": 0.0,
+            "mean_total_packets": 2.0
+          }
+        },
+        "recurrent_retry": {
+          "both_features_accuracy": 0.55328,
+          "both_features_standard_error": 0.002223,
+          "single_feature_accuracy": 0.74392,
+          "mean_data_packets": 2.29838,
+          "mean_control_packets": 0.29838,
+          "mean_total_packets": 2.59676,
+          "mean_received_packets": 1.95358,
+          "analytical": {
+            "single_feature_accuracy": 0.744375,
+            "both_features_accuracy": 0.554094,
+            "mean_data_packets": 2.3,
+            "mean_control_packets": 0.3,
+            "mean_total_packets": 2.6
+          }
+        },
+        "feedforward_redundant": {
+          "both_features_accuracy": 0.55446,
+          "both_features_standard_error": 0.002223,
+          "single_feature_accuracy": 0.74445,
+          "mean_data_packets": 4.0,
+          "mean_control_packets": 0.0,
+          "mean_total_packets": 4.0,
+          "mean_received_packets": 1.95416,
+          "analytical": {
+            "single_feature_accuracy": 0.744375,
+            "both_features_accuracy": 0.554094,
+            "mean_data_packets": 4.0,
+            "mean_control_packets": 0.0,
+            "mean_total_packets": 4.0
+          }
+        }
+      }
+    },
+    {
+      "trials_per_protocol": 50000,
+      "sensory_noise": 0.25,
+      "packet_erasure": 0.35,
+      "seed": 1177,
+      "protocols": {
+        "feedforward": {
+          "both_features_accuracy": 0.43832,
+          "both_features_standard_error": 0.002219,
+          "single_feature_accuracy": 0.66185,
+          "mean_data_packets": 2.0,
+          "mean_control_packets": 0.0,
+          "mean_total_packets": 2.0,
+          "mean_received_packets": 1.2979,
+          "analytical": {
+            "single_feature_accuracy": 0.6625,
+            "both_features_accuracy": 0.438906,
+            "mean_data_packets": 2.0,
+            "mean_control_packets": 0.0,
+            "mean_total_packets": 2.0
+          }
+        },
+        "workspace": {
+          "both_features_accuracy": 0.43836,
+          "both_features_standard_error": 0.002219,
+          "single_feature_accuracy": 0.66357,
+          "mean_data_packets": 2.0,
+          "mean_control_packets": 0.0,
+          "mean_total_packets": 2.0,
+          "mean_received_packets": 1.3019,
+          "analytical": {
+            "single_feature_accuracy": 0.6625,
+            "both_features_accuracy": 0.438906,
+            "mean_data_packets": 2.0,
+            "mean_control_packets": 0.0,
+            "mean_total_packets": 2.0
+          }
+        },
+        "recurrent_retry": {
+          "both_features_accuracy": 0.51552,
+          "both_features_standard_error": 0.002235,
+          "single_feature_accuracy": 0.71805,
+          "mean_data_packets": 2.6998,
+          "mean_control_packets": 0.6998,
+          "mean_total_packets": 3.3996,
+          "mean_received_packets": 1.75476,
+          "analytical": {
+            "single_feature_accuracy": 0.719375,
+            "both_features_accuracy": 0.5175,
+            "mean_data_packets": 2.7,
+            "mean_control_packets": 0.7,
+            "mean_total_packets": 3.4
+          }
+        },
+        "feedforward_redundant": {
+          "both_features_accuracy": 0.5154,
+          "both_features_standard_error": 0.002235,
+          "single_feature_accuracy": 0.71838,
+          "mean_data_packets": 4.0,
+          "mean_control_packets": 0.0,
+          "mean_total_packets": 4.0,
+          "mean_received_packets": 1.75244,
+          "analytical": {
+            "single_feature_accuracy": 0.719375,
+            "both_features_accuracy": 0.5175,
+            "mean_data_packets": 4.0,
+            "mean_control_packets": 0.0,
+            "mean_total_packets": 4.0
+          }
+        }
+      }
+    }
+  ],
+  "causal_control": {
+    "n": 100000,
+    "shared_cause": {
+      "observed_agreement_rate": 0.82096,
+      "observed_pearson_r": 0.641913,
+      "theoretical_pearson_r": 0.64,
+      "interventional_effect_do_A1_minus_do_A0": 0.0,
+      "paired_intervention_difference_count": 0
+    },
+    "directed_A_to_B": {
+      "interventional_effect_do_A1_minus_do_A0": 0.80012,
+      "theoretical_effect": 0.8
+    },
+    "interpretation": "Shared causes generate correlation without A causing B. The second model has an explicit A->B channel."
+  },
+  "limitations": [
+    "Protocols deliberately use different data/control message budgets; advantages cannot be attributed to topology alone.",
+    "A simplified shared cache called 'workspace' is not a faithful Global Neuronal Workspace Theory implementation.",
+    "A feedback retry protocol is not a faithful biological recurrent neural network.",
+    "Each packet carries two bits from one feature specialist. Packets erase independently; control NACKs are reliable and counted.",
+    "Receiver uses an unbiased random guess for missing data, and only one target cue arrives after sensing.",
+    "Sensory noise is independent by feature/location and shared across the four protocol comparisons within an episode.",
+    "No formal IIT integrated-information quantity or phenomenal experience is measured."
+  ]
+}
